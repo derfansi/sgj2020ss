@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_Vertical : MonoBehaviour
+public class Enemy_Vertical : Enemy
 {
     private int _up = -1;
 

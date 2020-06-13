@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_Reflect : MonoBehaviour
+public class Enemy_Reflect : Enemy
 {
     private int _right = -1;
     
