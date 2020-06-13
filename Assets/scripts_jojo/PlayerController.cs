@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                _rigidbody.AddForce(new Vector2(baseVelocity/3, 0));
+                _rigidbody.velocity = new Vector2(baseVelocity * 1.2f, _rigidbody.velocity.y);
             }
             
         }
@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                _rigidbody.AddForce(new Vector2(-baseVelocity/3, 0));
+                _rigidbody.velocity = new Vector2(-baseVelocity * 1.2f , _rigidbody.velocity.y);
             }
         }
         else if(isGrounded && !airDash)

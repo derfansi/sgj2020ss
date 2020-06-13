@@ -19,6 +19,7 @@
         </e>
         <e p="scripts_jojo" t="Include">
           <e p="Air.cs" t="Include" />
+          <e p="AirSlice.cs" t="Include" />
           <e p="BoulderScript.cs" t="Include" />
           <e p="CameraFollow2D.cs" t="Include" />
           <e p="GroundPillar.cs" t="Include" />
