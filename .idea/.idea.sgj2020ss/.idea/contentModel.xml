@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scenes" t="Include">
           <e p="Scripts_Justin" t="Include">
+            <e p="Enemy.cs" t="Include" />
             <e p="Enemy_Balance.cs" t="Include" />
             <e p="Enemy_FallFromPlatform.cs" t="Include" />
             <e p="Enemy_Reflect.cs" t="Include" />

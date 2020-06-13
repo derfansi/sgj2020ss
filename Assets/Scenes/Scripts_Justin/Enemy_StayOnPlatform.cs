@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEditor.UIElements;
 using UnityEngine;
 
-public class Enemy_StayOnPlatform : MonoBehaviour
+public class Enemy_StayOnPlatform : Enemy
 {
     private int _right = -1;
 

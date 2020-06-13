@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_FallFromPlatform : MonoBehaviour
+public class Enemy_FallFromPlatform : Enemy
 {
     private int _right = -1;
 
