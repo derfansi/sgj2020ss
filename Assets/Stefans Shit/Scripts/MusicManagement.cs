@@ -7,18 +7,23 @@ public class MusicManagement : MonoBehaviour
 {
     public AudioSource airMusic, waterMusic, earthMusic, fireMusic;
     public float fadingTime;
+    public AudioSource sfx;
+    public AudioClip airActivate, waterActivate, earthActivate, fireActivate;
 
     AudioSource currentAudioSource;
     Coroutine currentCoroutine;
 
     public void AirActivated()
     {
-        //TODO: Play sound for air activation
+        sfx.clip = airActivate;
+        sfx.Play();
         BlendMusic(airMusic);
     }
     public void WaterActivated()
     {
         //TODO: Play sound for water activation
+        sfx.clip = waterActivate;
+        sfx.Play();
         BlendMusic(waterMusic);
     }
     public void EarthActivated()
