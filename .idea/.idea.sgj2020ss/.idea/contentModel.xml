@@ -17,6 +17,7 @@
             <e p="Fire.cs" t="Include" />
             <e p="Firepit.cs" t="Include" />
             <e p="Player.cs" t="Include" />
+            <e p="PressurePlate.cs" t="Include" />
             <e p="Rod.cs" t="Include" />
           </e>
         </e>
