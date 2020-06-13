@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Cursor
+  - Interactable
   layers:
   - Default
   - TransparentFX
@@ -14,14 +16,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Ground
+  - Cursor
   - Vertical_Endpoint
   - Reflect_Endpoint
   - Rod_Endpoint
   - Rod
-  - 
-  - 
   - 
   - 
   - 

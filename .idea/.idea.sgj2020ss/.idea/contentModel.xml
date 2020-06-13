@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\jojom\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jojom\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_sgj2020ss.548606290.00" t="ExcludeRecursive" />
+    <e p="E:\git repos\sgj2020ss" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="scripts_jojo" t="Include">
+          <e p="BoulderScript.cs" t="Include" />
+          <e p="CameraFollow2D.cs" t="Include" />
+          <e p="GroundPillar.cs" t="Include" />
+          <e p="Interactable.cs" t="Include" />
+          <e p="MyCursor.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="sgj2020ss.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
