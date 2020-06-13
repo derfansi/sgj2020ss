@@ -11,14 +11,38 @@ public class MyCursor : MonoBehaviour
     private Camera _camera;
     public bool down;
     
+    //Element Switch
+    public enum Element
+    {
+        WATER,
+        FIRE,
+        EARTH,
+        AIR
+    }
+
+    public Element element;
+    
+    
     private void Start()
     {
+        element = Element.EARTH;
         Cursor.lockState = CursorLockMode.Locked;
         _camera = Camera.main;
     }
 
     private void Update()
     {
+        //element switch
+        if (Input.GetKeyDown("q"))
+        {
+            element = (Element) (((int) element + 5) % 4);
+        }
+        else  if (Input.GetKeyDown("e"))
+        {
+            element = (Element) (((int) element +3) % 4);
+        }
+        
+        
         movement.x = Input.GetAxisRaw("Mouse X");
         movement.y = Input.GetAxisRaw("Mouse Y");
 
