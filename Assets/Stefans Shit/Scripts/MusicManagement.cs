@@ -38,10 +38,12 @@ public class MusicManagement : MonoBehaviour
         waterMusic.Play();
         earthMusic.Play();
         fireMusic.Play();
-        airMusic.volume = 0;
+        airMusic.volume = 1;
         waterMusic.volume = 0;
         earthMusic.volume = 0;
         fireMusic.volume = 0;
+
+        currentAudioSource = airMusic;
     }
 
     void BlendMusic(AudioSource newSource)
