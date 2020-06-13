@@ -13898,7 +13898,7 @@ PrefabInstance:
     - target: {fileID: 5648559728803063320, guid: c21af5ab9d8cbc24c8b31a493a8fb9d4,
         type: 3}
       propertyPath: m_Name
-      value: Bars
+      value: UI
       objectReference: {fileID: 0}
     - target: {fileID: 5648559728995968390, guid: c21af5ab9d8cbc24c8b31a493a8fb9d4,
         type: 3}
