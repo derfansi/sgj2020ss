@@ -14,6 +14,10 @@ public class Air : Interactable
     public Rigidbody2D p_rb;
     public Vector2 cursorPos;
     public Vector2 playerPos;
+
+    public GameObject airSlice;
+    public float attackSpeed = 6;
+    public Vector2 direction;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,7 +49,15 @@ public class Air : Interactable
 
     public override void MouseDown()
     {
-        hold = true;
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            AirAttack();
+        }
+        else
+        {
+            hold = true;
+        }
+        
     }
     
     public override void MouseUp()
@@ -59,12 +71,19 @@ public class Air : Interactable
     IEnumerator AirBurst()
     {
         player.GetComponent<PlayerController>().airDash = true;
-        Vector2 direction = cursorPos - playerPos;
+        direction = cursorPos - playerPos;
         Vector2 pushDir = (-direction.normalized) * charge;
         Debug.Log(pushDir);
         p_rb.AddRelativeForce(pushDir*5, ForceMode2D.Impulse);
         charge = 0;
         yield return new WaitForSeconds(0.2f);
         player.GetComponent<PlayerController>().airDash = false;
+    }
+
+    public void AirAttack()
+    {
+        direction = (cursorPos - playerPos).normalized;
+        GameObject gameObject = Instantiate(airSlice, playerPos, Quaternion.identity);
+        gameObject.GetComponent<Rigidbody2D>().AddForce(direction*attackSpeed, ForceMode2D.Impulse);
     }
 }

@@ -36,11 +36,11 @@ public class MyCursor : MonoBehaviour
     private void Update()
     {
         //element switch
-        if (Input.GetKeyDown("q"))
+        if (Input.GetKeyDown("q") && !down)
         {
             element = (Element) (((int) element + 5) % 4);
         }
-        else  if (Input.GetKeyDown("e"))
+        else  if (Input.GetKeyDown("e") && !down)
         {
             element = (Element) (((int) element +3) % 4);
         }

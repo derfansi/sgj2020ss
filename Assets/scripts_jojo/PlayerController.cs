@@ -27,11 +27,26 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey("d"))
         {
-            _rigidbody.velocity = new Vector2(baseVelocity, _rigidbody.velocity.y);
+            if (isGrounded)
+            {
+                _rigidbody.velocity = new Vector2(baseVelocity, _rigidbody.velocity.y);
+            }
+            else
+            {
+                _rigidbody.AddForce(new Vector2(baseVelocity/3, 0));
+            }
+            
         }
         else if (Input.GetKey("a"))
         {
-            _rigidbody.velocity = new Vector2(-baseVelocity, _rigidbody.velocity.y);
+            if (isGrounded)
+            {
+                _rigidbody.velocity = new Vector2(-baseVelocity, _rigidbody.velocity.y);
+            }
+            else
+            {
+                _rigidbody.AddForce(new Vector2(-baseVelocity/3, 0));
+            }
         }
         else if(isGrounded && !airDash)
         {
