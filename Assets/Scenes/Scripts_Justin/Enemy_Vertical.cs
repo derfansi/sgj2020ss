@@ -6,12 +6,6 @@ using UnityEngine;
 public class Enemy_Vertical : MonoBehaviour
 {
     private int _up = -1;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void FixedUpdate()
