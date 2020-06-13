@@ -1,0 +1,3509 @@
+fileFormatVersion: 2
+guid: 4d6671d9667fa8e429024bf5f541829a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6491134833345173940
+    second: Air Monk_0
+  - first:
+      213: 4726291491183946547
+    second: Air Monk_1
+  - first:
+      213: 8526107412104504300
+    second: Air Monk_2
+  - first:
+      213: -1822447098166470899
+    second: Air Monk_3
+  - first:
+      213: -2350768372451003368
+    second: Air Monk_4
+  - first:
+      213: -7814720522174661998
+    second: Air Monk_5
+  - first:
+      213: -708739255388120256
+    second: Air Monk_6
+  - first:
+      213: -7009498655748223671
+    second: Air Monk_7
+  - first:
+      213: 864726847598643725
+    second: Air Monk_8
+  - first:
+      213: -378715604769127026
+    second: Air Monk_9
+  - first:
+      213: -5182216575485343452
+    second: Air Monk_10
+  - first:
+      213: 7122330729136109328
+    second: Air Monk_11
+  - first:
+      213: -3753835164968224554
+    second: Air Monk_12
+  - first:
+      213: 221383491861358433
+    second: Air Monk_13
+  - first:
+      213: 7309043366345397530
+    second: Air Monk_14
+  - first:
+      213: 4219562186498374110
+    second: Air Monk_15
+  - first:
+      213: 6254147273253036714
+    second: Air Monk_16
+  - first:
+      213: 2975578477880653628
+    second: Air Monk_17
+  - first:
+      213: -1716430119938945022
+    second: Air Monk_18
+  - first:
+      213: 1848459267882330374
+    second: Air Monk_19
+  - first:
+      213: -9215876605845085911
+    second: Air Monk_20
+  - first:
+      213: -6836862405946669140
+    second: Air Monk_21
+  - first:
+      213: 5837634096719193978
+    second: Air Monk_22
+  - first:
+      213: 2844433404693558656
+    second: Air Monk_23
+  - first:
+      213: 4926824068439905220
+    second: Air Monk_24
+  - first:
+      213: -6566454342691505302
+    second: Air Monk_25
+  - first:
+      213: -32995180570272314
+    second: Air Monk_26
+  - first:
+      213: 7048710026542423908
+    second: Air Monk_27
+  - first:
+      213: -5520615233400740610
+    second: Air Monk_28
+  - first:
+      213: -2936519260085911893
+    second: Air Monk_29
+  - first:
+      213: -5877948045168006548
+    second: Air Monk_30
+  - first:
+      213: -2607254642691067956
+    second: Air Monk_31
+  - first:
+      213: 1027249501215365966
+    second: Air Monk_32
+  - first:
+      213: 8964024521525297413
+    second: Air Monk_33
+  - first:
+      213: -766768848452643480
+    second: Air Monk_34
+  - first:
+      213: -9020088249643814264
+    second: Air Monk_35
+  - first:
+      213: -3242903256130252362
+    second: Air Monk_36
+  - first:
+      213: -8162453170303853522
+    second: Air Monk_37
+  - first:
+      213: -4579511191675698951
+    second: Air Monk_38
+  - first:
+      213: 2132342749166092712
+    second: Air Monk_39
+  - first:
+      213: -3957980249345370622
+    second: Air Monk_40
+  - first:
+      213: -1551301802935589675
+    second: Air Monk_41
+  - first:
+      213: -7518854077442340479
+    second: Air Monk_42
+  - first:
+      213: 1214505256122953717
+    second: Air Monk_43
+  - first:
+      213: 2985620441547629684
+    second: Air Monk_44
+  - first:
+      213: -642467713277675571
+    second: Air Monk_45
+  - first:
+      213: 6916190988963226317
+    second: Air Monk_46
+  - first:
+      213: -1263646931428701286
+    second: Air Monk_47
+  - first:
+      213: 5869852956897888829
+    second: Air Monk_48
+  - first:
+      213: -9165350589671774727
+    second: Air Monk_49
+  - first:
+      213: 2286557771214515100
+    second: Air Monk_50
+  - first:
+      213: -1453020267697852892
+    second: Air Monk_51
+  - first:
+      213: 1582237848936142598
+    second: Air Monk_52
+  - first:
+      213: -106391794353039787
+    second: Air Monk_53
+  - first:
+      213: -6576314731432882657
+    second: Air Monk_54
+  - first:
+      213: -4410942619158717846
+    second: Air Monk_55
+  - first:
+      213: 6652140253879498295
+    second: Air Monk_56
+  - first:
+      213: 8707341401945147698
+    second: Air Monk_57
+  - first:
+      213: -2565898373435597559
+    second: Air Monk_58
+  - first:
+      213: -1904117636813987083
+    second: Air Monk_59
+  - first:
+      213: -5087789224806149614
+    second: Air Monk_60
+  - first:
+      213: 7432515807835140464
+    second: Air Monk_61
+  - first:
+      213: -8893894325966978022
+    second: Air Monk_62
+  - first:
+      213: 3342584151183919935
+    second: Air Monk_63
+  - first:
+      213: -2499739829671426982
+    second: Air Monk_64
+  - first:
+      213: 7652439308984668665
+    second: Air Monk_65
+  - first:
+      213: -5903613991283256319
+    second: Air Monk_66
+  - first:
+      213: 4664834128761534919
+    second: Air Monk_67
+  - first:
+      213: -1772267211124737012
+    second: Air Monk_68
+  - first:
+      213: 189506340451777632
+    second: Air Monk_69
+  - first:
+      213: 3308659102463222711
+    second: Air Monk_70
+  - first:
+      213: -6480793020359754911
+    second: Air Monk_71
+  - first:
+      213: -4421416293991200447
+    second: Air Monk_72
+  - first:
+      213: 3014769760133236716
+    second: Air Monk_73
+  - first:
+      213: -3707740215386074474
+    second: Air Monk_74
+  - first:
+      213: 9141167102053145729
+    second: Air Monk_75
+  - first:
+      213: 51686295475881237
+    second: Air Monk_76
+  - first:
+      213: -7103905095696075539
+    second: Air Monk_77
+  - first:
+      213: 4901501137017036041
+    second: Air Monk_78
+  - first:
+      213: -3532456035970690529
+    second: Air Monk_79
+  - first:
+      213: 450254847123445472
+    second: Air Monk_80
+  - first:
+      213: -8669605607546189995
+    second: Air Monk_81
+  - first:
+      213: 7178657618357097906
+    second: Air Monk_82
+  - first:
+      213: 6494153699424989448
+    second: Air Monk_83
+  - first:
+      213: 1433094907794980763
+    second: Air Monk_84
+  - first:
+      213: -249794932251136489
+    second: Air Monk_85
+  - first:
+      213: 7499468121432972819
+    second: Air Monk_86
+  - first:
+      213: 5492775750980191219
+    second: Air Monk_87
+  - first:
+      213: -8718481040428402964
+    second: Air Monk_88
+  - first:
+      213: 7617138229967582057
+    second: Air Monk_89
+  - first:
+      213: -7735011349561633483
+    second: Air Monk_90
+  - first:
+      213: -8669906457303899056
+    second: Air Monk_91
+  - first:
+      213: 881740950189561448
+    second: Air Monk_92
+  - first:
+      213: 4521382348277325807
+    second: Air Monk_93
+  - first:
+      213: 6224057478909913658
+    second: Air Monk_94
+  - first:
+      213: -2586963108908500781
+    second: Air Monk_95
+  - first:
+      213: 3307857757902226290
+    second: Air Monk_96
+  - first:
+      213: 5121509613830324646
+    second: Air Monk_97
+  - first:
+      213: -8229006689068762462
+    second: Air Monk_98
+  - first:
+      213: -4857213782484989623
+    second: Air Monk_99
+  - first:
+      213: -1967523345462067600
+    second: Air Monk_100
+  - first:
+      213: -7163787508707620246
+    second: Air Monk_101
+  - first:
+      213: 5817734589037417056
+    second: Air Monk_102
+  - first:
+      213: -1536716500305399304
+    second: Air Monk_103
+  - first:
+      213: 1717714177875333169
+    second: Air Monk_104
+  - first:
+      213: -234714930877277110
+    second: Air Monk_105
+  - first:
+      213: -2730554078378942291
+    second: Air Monk_106
+  - first:
+      213: 5838693858824554617
+    second: Air Monk_107
+  - first:
+      213: 8674977921103297887
+    second: Air Monk_108
+  - first:
+      213: 5659302218237471447
+    second: Air Monk_109
+  - first:
+      213: -9000880627356338672
+    second: Air Monk_110
+  - first:
+      213: 1315866776987487784
+    second: Air Monk_111
+  - first:
+      213: 3599025633870819529
+    second: Air Monk_112
+  - first:
+      213: -4732562774700532976
+    second: Air Monk_113
+  - first:
+      213: -1853295978560261335
+    second: Air Monk_114
+  - first:
+      213: -8053135394578606333
+    second: Air Monk_115
+  - first:
+      213: 2683216293909181466
+    second: Air Monk_116
+  - first:
+      213: -379818238340182586
+    second: Air Monk_117
+  - first:
+      213: -4115620442965924411
+    second: Air Monk_118
+  - first:
+      213: 5562012552357816521
+    second: Air Monk_119
+  - first:
+      213: -7413061867845697851
+    second: Air Monk_120
+  - first:
+      213: 8095150294112593824
+    second: Air Monk_121
+  - first:
+      213: -4543755169916614347
+    second: Air Monk_122
+  - first:
+      213: -6188598656020345838
+    second: Air Monk_123
+  - first:
+      213: -2906421829830692601
+    second: Air Monk_124
+  - first:
+      213: -4736169092925157576
+    second: Air Monk_125
+  - first:
+      213: 3395676692898284155
+    second: Air Monk_126
+  - first:
+      213: -1111045613505218209
+    second: Air Monk_127
+  - first:
+      213: 6162084401370367173
+    second: Air Monk_128
+  - first:
+      213: 1932631088116817863
+    second: Air Monk_129
+  - first:
+      213: 9131710316481615087
+    second: Air Monk_130
+  - first:
+      213: 4899861942796284714
+    second: Air Monk_131
+  - first:
+      213: -4201763995016118636
+    second: Air Monk_132
+  - first:
+      213: -713172191706666498
+    second: Air Monk_133
+  - first:
+      213: -4550584000946037833
+    second: Air Monk_134
+  - first:
+      213: 1842020243075917036
+    second: Air Monk_135
+  - first:
+      213: -2824215026533307352
+    second: Air Monk_136
+  - first:
+      213: 9081762030134551069
+    second: Air Monk_137
+  - first:
+      213: 2137540995936422335
+    second: Air Monk_138
+  - first:
+      213: 3631791768561802257
+    second: Air Monk_139
+  - first:
+      213: -8426973543790156533
+    second: Air Monk_140
+  - first:
+      213: -7622531474111830333
+    second: Air Monk_141
+  - first:
+      213: -303798306201048674
+    second: Air Monk_142
+  - first:
+      213: -8804014965366709576
+    second: Air Monk_143
+  - first:
+      213: 2514143853732091192
+    second: Air Monk_144
+  - first:
+      213: 8495197173688627722
+    second: Air Monk_145
+  - first:
+      213: 2095054674606565504
+    second: Air Monk_146
+  - first:
+      213: 4656434385484529288
+    second: Air Monk_147
+  - first:
+      213: -39063337718606967
+    second: Air Monk_148
+  - first:
+      213: -1137457842693559247
+    second: Air Monk_149
+  - first:
+      213: 8933769793713651185
+    second: Air Monk_150
+  - first:
+      213: -8649865907136423975
+    second: Air Monk_151
+  - first:
+      213: -6841727095325245532
+    second: Air Monk_152
+  - first:
+      213: 8179408119192876921
+    second: Air Monk_153
+  - first:
+      213: 4136533077197032116
+    second: Air Monk_154
+  - first:
+      213: -3254983946291618241
+    second: Air Monk_155
+  - first:
+      213: 3937071303779324345
+    second: Air Monk_156
+  - first:
+      213: -5466320845311055882
+    second: Air Monk_157
+  - first:
+      213: 8667899815473262163
+    second: Air Monk_158
+  - first:
+      213: -6812164990183624879
+    second: Air Monk_159
+  - first:
+      213: 514801533842629367
+    second: Air Monk_160
+  - first:
+      213: 7818394348302509776
+    second: Air Monk_161
+  - first:
+      213: -2915418219170592039
+    second: Air Monk_162
+  - first:
+      213: -3354669030917357803
+    second: Air Monk_163
+  - first:
+      213: 7677664291826296190
+    second: Air Monk_164
+  - first:
+      213: 4885752432549009169
+    second: Air Monk_165
+  - first:
+      213: 4867848494383545782
+    second: Air Monk_166
+  - first:
+      213: 4015134570323948801
+    second: Air Monk_167
+  - first:
+      213: -8460378249984563666
+    second: Air Monk_168
+  - first:
+      213: -6928878627171844980
+    second: Air Monk_169
+  - first:
+      213: -4854127061459398869
+    second: Air Monk_170
+  - first:
+      213: -5857055379568935840
+    second: Air Monk_171
+  - first:
+      213: 6426114657269432007
+    second: Air Monk_172
+  - first:
+      213: 2853974555256040203
+    second: Air Monk_173
+  - first:
+      213: 7609465336514242355
+    second: Air Monk_174
+  - first:
+      213: 6849598383620018531
+    second: Air Monk_175
+  - first:
+      213: -7343081780726359170
+    second: Air Monk_176
+  - first:
+      213: -7566378341496566361
+    second: Air Monk_177
+  - first:
+      213: 3253192108191629161
+    second: Air Monk_178
+  - first:
+      213: 8980591841401792607
+    second: Air Monk_179
+  - first:
+      213: -6545498001869644520
+    second: Air Monk_180
+  - first:
+      213: -7540457961958669456
+    second: Air Monk_181
+  - first:
+      213: 972813256226362757
+    second: Air Monk_182
+  - first:
+      213: 6112653840533893419
+    second: Air Monk_183
+  - first:
+      213: 6078509847749568029
+    second: Air Monk_184
+  - first:
+      213: -5336321629294865968
+    second: Air Monk_185
+  - first:
+      213: 8002250973902891886
+    second: Air Monk_186
+  - first:
+      213: 5511049648241838470
+    second: Air Monk_187
+  - first:
+      213: 1095400596623677825
+    second: Air Monk_188
+  - first:
+      213: -6036523441115178810
+    second: Air Monk_189
+  - first:
+      213: 7410609300585464491
+    second: Air Monk_190
+  - first:
+      213: -1939811823601353790
+    second: Air Monk_191
+  - first:
+      213: -1089512624840219215
+    second: Air Monk_192
+  - first:
+      213: 2175536933195553224
+    second: Air Monk_193
+  - first:
+      213: 4372260574744068890
+    second: Air Monk_194
+  - first:
+      213: -8963841240897587790
+    second: Air Monk_195
+  - first:
+      213: -3674604757839345604
+    second: Air Monk_196
+  - first:
+      213: -6511701562324260210
+    second: Air Monk_197
+  - first:
+      213: -3432307798370880077
+    second: Air Monk_198
+  - first:
+      213: 2409115183904241680
+    second: Air Monk_199
+  - first:
+      213: 9021935998618611880
+    second: Air Monk_200
+  - first:
+      213: -6989950854229212749
+    second: Air Monk_201
+  - first:
+      213: 8113971550289423142
+    second: Air Monk_202
+  - first:
+      213: 7748676193997183351
+    second: Air Monk_203
+  - first:
+      213: -5715439629157429507
+    second: Air Monk_204
+  - first:
+      213: 8980608548402123423
+    second: Air Monk_205
+  - first:
+      213: -8584508524692713794
+    second: Air Monk_206
+  - first:
+      213: -2189671248822775069
+    second: Air Monk_207
+  - first:
+      213: 3790133212276027757
+    second: Air Monk_208
+  - first:
+      213: 4692915361793734193
+    second: Air Monk_209
+  - first:
+      213: -4969080916490277024
+    second: Air Monk_210
+  - first:
+      213: -137091593682788865
+    second: Air Monk_211
+  - first:
+      213: -1329210099141761077
+    second: Air Monk_212
+  - first:
+      213: -6428447059010403370
+    second: Air Monk_213
+  - first:
+      213: -6810645788197083030
+    second: Air Monk_214
+  - first:
+      213: 5868173992480475530
+    second: Air Monk_215
+  - first:
+      213: 6155451641629039616
+    second: Air Monk_216
+  - first:
+      213: -8672229795593316644
+    second: Air Monk_217
+  - first:
+      213: -7195443830067218821
+    second: Air Monk_218
+  - first:
+      213: 8376312946955743990
+    second: Air Monk_219
+  - first:
+      213: 5208889082497736053
+    second: Air Monk_220
+  - first:
+      213: -811832926952193881
+    second: Air Monk_221
+  - first:
+      213: 2605380396542430030
+    second: Air Monk_222
+  - first:
+      213: 1931874381803021739
+    second: Air Monk_223
+  - first:
+      213: 5160639924054391917
+    second: Air Monk_224
+  - first:
+      213: -6716790020727869512
+    second: Air Monk_225
+  - first:
+      213: 6553895402509118829
+    second: Air Monk_226
+  - first:
+      213: 2555401860349122318
+    second: Air Monk_227
+  - first:
+      213: -6666287530386502689
+    second: Air Monk_228
+  - first:
+      213: -6490589990086738663
+    second: Air Monk_229
+  - first:
+      213: 1759903930118764475
+    second: Air Monk_230
+  - first:
+      213: -3762843869833417696
+    second: Air Monk_231
+  - first:
+      213: 5097375523969128959
+    second: Air Monk_232
+  - first:
+      213: 8042859181552883823
+    second: Air Monk_233
+  - first:
+      213: -702752097771564856
+    second: Air Monk_234
+  - first:
+      213: 3782294480138886556
+    second: Air Monk_235
+  - first:
+      213: -709526527570890021
+    second: Air Monk_236
+  - first:
+      213: 4079161642986168672
+    second: Air Monk_237
+  - first:
+      213: -8627218035872365305
+    second: Air Monk_238
+  - first:
+      213: 7246199841141309366
+    second: Air Monk_239
+  - first:
+      213: 1275500249828168402
+    second: Air Monk_240
+  - first:
+      213: -8125223686411314653
+    second: Air Monk_241
+  - first:
+      213: -1048944601696510399
+    second: Air Monk_242
+  - first:
+      213: -1584925489476252224
+    second: Air Monk_243
+  - first:
+      213: 3302187900857826042
+    second: Air Monk_244
+  - first:
+      213: -3368154779237516191
+    second: Air Monk_245
+  - first:
+      213: 2467962175989867248
+    second: Air Monk_246
+  - first:
+      213: 386025227257121534
+    second: Air Monk_247
+  - first:
+      213: 1821231883417412227
+    second: Air Monk_248
+  - first:
+      213: 8132848286907348947
+    second: Air Monk_249
+  - first:
+      213: 425556087181319227
+    second: Air Monk_250
+  - first:
+      213: 6374889197434902718
+    second: Air Monk_251
+  - first:
+      213: 287897251198183272
+    second: Air Monk_252
+  - first:
+      213: 8711478422770135951
+    second: Air Monk_253
+  - first:
+      213: -6845189881181981692
+    second: Air Monk_254
+  - first:
+      213: 3169883207067105628
+    second: Air Monk_255
+  - first:
+      213: 8369200922927852602
+    second: Air Monk_256
+  - first:
+      213: -2311257220899907641
+    second: Air Monk_257
+  - first:
+      213: 6756975063958657653
+    second: Air Monk_258
+  - first:
+      213: -7346775069693105891
+    second: Air Monk_259
+  - first:
+      213: -7072641687315523059
+    second: Air Monk_260
+  - first:
+      213: 6523881818770562744
+    second: Air Monk_261
+  - first:
+      213: 2515430481428441545
+    second: Air Monk_262
+  - first:
+      213: -4025903817117000905
+    second: Air Monk_263
+  - first:
+      213: 4510087064729451704
+    second: Air Monk_264
+  - first:
+      213: 1667592565456407198
+    second: Air Monk_265
+  - first:
+      213: -4066909136090917516
+    second: Air Monk_266
+  - first:
+      213: -1118341619689330449
+    second: Air Monk_267
+  - first:
+      213: 6384555438007582258
+    second: Air Monk_268
+  - first:
+      213: -984751469924157622
+    second: Air Monk_269
+  - first:
+      213: 1561943426094864981
+    second: Air Monk_270
+  - first:
+      213: 2237827723535814301
+    second: Air Monk_271
+  - first:
+      213: -154926802386156476
+    second: Air Monk_272
+  - first:
+      213: 2991433768859952885
+    second: Air Monk_273
+  - first:
+      213: 6044735306465851973
+    second: Air Monk_274
+  - first:
+      213: 2188780177337252007
+    second: Air Monk_275
+  - first:
+      213: 7266496320219455592
+    second: Air Monk_276
+  - first:
+      213: 8843066378939477847
+    second: Air Monk_277
+  - first:
+      213: -1637982641474737843
+    second: Air Monk_278
+  - first:
+      213: 6740810973203441608
+    second: Air Monk_279
+  - first:
+      213: -3403254613422110449
+    second: Air Monk_280
+  - first:
+      213: 1141023210511090397
+    second: Air Monk_281
+  - first:
+      213: -5937985852414506922
+    second: Air Monk_282
+  - first:
+      213: 7592226631459907258
+    second: Air Monk_283
+  - first:
+      213: 718360883304042896
+    second: Air Monk_284
+  - first:
+      213: 5835349340952070213
+    second: Air Monk_285
+  - first:
+      213: -2912492483821126055
+    second: Air Monk_286
+  - first:
+      213: 274728595123285446
+    second: Air Monk_287
+  - first:
+      213: -8444210534245087612
+    second: Air Monk_288
+  - first:
+      213: 6774954025419644265
+    second: Air Monk_289
+  - first:
+      213: -2959123483252001790
+    second: Air Monk_290
+  - first:
+      213: -8150808260498034816
+    second: Air Monk_291
+  - first:
+      213: 8364009681334428692
+    second: Air Monk_292
+  - first:
+      213: -2432467401726552137
+    second: Air Monk_293
+  - first:
+      213: -4127280560717591916
+    second: Air Monk_294
+  - first:
+      213: -5960492905375719331
+    second: Air Monk_295
+  - first:
+      213: -8737477959449669066
+    second: Air Monk_296
+  - first:
+      213: 6040539959745339543
+    second: Air Monk_297
+  - first:
+      213: -1989853480053167324
+    second: Air Monk_298
+  - first:
+      213: -1879562050465065892
+    second: Air Monk_299
+  - first:
+      213: 7265659143597589076
+    second: Air Monk_300
+  - first:
+      213: 3086164644086179424
+    second: Air Monk_301
+  - first:
+      213: 8758489980318241619
+    second: Air Monk_302
+  - first:
+      213: 282356233287100946
+    second: Air Monk_303
+  - first:
+      213: -4849099621634103976
+    second: Air Monk_304
+  - first:
+      213: 1498601309635208039
+    second: Air Monk_305
+  - first:
+      213: 3517838085042310737
+    second: Air Monk_306
+  - first:
+      213: -9183676126344740351
+    second: Air Monk_307
+  - first:
+      213: -1597291754165708187
+    second: Air Monk_308
+  - first:
+      213: -4474367598062797576
+    second: Air Monk_309
+  - first:
+      213: 3912716431213934918
+    second: Air Monk_310
+  - first:
+      213: -8200894953781106041
+    second: Air Monk_311
+  - first:
+      213: 1147317945377315433
+    second: Air Monk_312
+  - first:
+      213: 4554918818121352545
+    second: Air Monk_313
+  - first:
+      213: -1262423063072718996
+    second: Air Monk_314
+  - first:
+      213: 267155360598010627
+    second: Air Monk_315
+  - first:
+      213: 5573912981576741893
+    second: Air Monk_316
+  - first:
+      213: -6217374156140214285
+    second: Air Monk_317
+  - first:
+      213: -7034017857055860118
+    second: Air Monk_318
+  - first:
+      213: -8245328231003598898
+    second: Air Monk_319
+  - first:
+      213: -4575554754978917133
+    second: Air Monk_320
+  - first:
+      213: -7222491748840658850
+    second: Air Monk_321
+  - first:
+      213: -3815736038945021887
+    second: Air Monk_322
+  - first:
+      213: -1629561446771329732
+    second: Air Monk_323
+  - first:
+      213: 1733704334324028290
+    second: Air Monk_324
+  - first:
+      213: -78982091176587563
+    second: Air Monk_325
+  - first:
+      213: -47521385362478767
+    second: Air Monk_326
+  - first:
+      213: -4428664949529781764
+    second: Air Monk_327
+  - first:
+      213: 3466024532695597951
+    second: Air Monk_328
+  - first:
+      213: -9000240800882389634
+    second: Air Monk_329
+  - first:
+      213: 7851370002396489699
+    second: Air Monk_330
+  - first:
+      213: 4450301985563470784
+    second: Air Monk_331
+  - first:
+      213: -5617283645286172418
+    second: Air Monk_332
+  - first:
+      213: -764814596843793377
+    second: Air Monk_333
+  - first:
+      213: 8055464455941330691
+    second: Air Monk_334
+  - first:
+      213: 1875980322417270957
+    second: Air Monk_335
+  - first:
+      213: 9108558663009139787
+    second: Air Monk_336
+  - first:
+      213: 8911686484297726304
+    second: Air Monk_337
+  - first:
+      213: -5578754677422676981
+    second: Air Monk_338
+  - first:
+      213: -7178766679250534929
+    second: Air Monk_339
+  - first:
+      213: 5743934611449949734
+    second: Air Monk_340
+  - first:
+      213: -884972405748951619
+    second: Air Monk_341
+  - first:
+      213: 2879381353217253427
+    second: Air Monk_342
+  - first:
+      213: -3308726858422440037
+    second: Air Monk_343
+  - first:
+      213: -2856665715172322200
+    second: Air Monk_344
+  - first:
+      213: 4118429063446800655
+    second: Air Monk_345
+  - first:
+      213: 3985359938812805641
+    second: Air Monk_346
+  - first:
+      213: -8985767478336078861
+    second: Air Monk_347
+  - first:
+      213: -2779608659363263616
+    second: Air Monk_348
+  - first:
+      213: -7784168674356305514
+    second: Air Monk_349
+  - first:
+      213: -4636318908503809140
+    second: Air Monk_350
+  - first:
+      213: -489530182093733823
+    second: Air Monk_351
+  - first:
+      213: -1455378015702301575
+    second: Air Monk_352
+  - first:
+      213: -8834513623602298589
+    second: Air Monk_353
+  - first:
+      213: 4386023486356161145
+    second: Air Monk_354
+  - first:
+      213: -4531127143465113201
+    second: Air Monk_355
+  - first:
+      213: 6399268520255169162
+    second: Air Monk_356
+  - first:
+      213: 5406408748513274096
+    second: Air Monk_357
+  - first:
+      213: 2706869465723633948
+    second: Air Monk_358
+  - first:
+      213: 1634116113880425188
+    second: Air Monk_359
+  - first:
+      213: 6535476732592356300
+    second: Air Monk_360
+  - first:
+      213: 6942851206227916788
+    second: Air Monk_361
+  - first:
+      213: -388620123096673161
+    second: Air Monk_362
+  - first:
+      213: 2032362394612173492
+    second: Air Monk_363
+  - first:
+      213: 3899409966351837291
+    second: Air Monk_364
+  - first:
+      213: 6733122839735894682
+    second: Air Monk_365
+  - first:
+      213: -4120764996990611874
+    second: Air Monk_366
+  - first:
+      213: -4311709519780258111
+    second: Air Monk_367
+  - first:
+      213: -1534068811005628425
+    second: Air Monk_368
+  - first:
+      213: -8738525141052082220
+    second: Air Monk_369
+  - first:
+      213: 5211184895487546664
+    second: Air Monk_370
+  - first:
+      213: -349376407818141833
+    second: Air Monk_371
+  - first:
+      213: -3617731809600864355
+    second: Air Monk_372
+  - first:
+      213: 8425941510137334774
+    second: Air Monk_373
+  - first:
+      213: 2706650464189194347
+    second: Air Monk_374
+  - first:
+      213: 6295082974953296894
+    second: Air Monk_375
+  - first:
+      213: -6354402509993601959
+    second: Air Monk_376
+  - first:
+      213: -3148477299458617398
+    second: Air Monk_377
+  - first:
+      213: -6620771641325398368
+    second: Air Monk_378
+  - first:
+      213: 2174504250479677993
+    second: Air Monk_379
+  - first:
+      213: 544567854334756487
+    second: Air Monk_380
+  - first:
+      213: 9128227824230539572
+    second: Air Monk_381
+  - first:
+      213: -3053546580905060944
+    second: Air Monk_382
+  - first:
+      213: -1043111005451326974
+    second: Air Monk_383
+  - first:
+      213: -6092340211101847731
+    second: Air Monk_384
+  - first:
+      213: 2320624079889590506
+    second: Air Monk_385
+  - first:
+      213: -5222620625671166148
+    second: Air Monk_386
+  - first:
+      213: 6149538548450921076
+    second: Air Monk_387
+  - first:
+      213: 4816233976882838948
+    second: Air Monk_388
+  - first:
+      213: -7507365822061501126
+    second: Air Monk_389
+  - first:
+      213: 9015844101956108544
+    second: Air Monk_390
+  - first:
+      213: 100303260533807279
+    second: Air Monk_391
+  - first:
+      213: 2337673360382673603
+    second: Air Monk_392
+  - first:
+      213: -9038740349187568547
+    second: Air Monk_393
+  - first:
+      213: 5379703326533641265
+    second: Air Monk_394
+  - first:
+      213: 7860003635046628232
+    second: Air Monk_395
+  - first:
+      213: 1582783411704052216
+    second: Air Monk_396
+  - first:
+      213: 7276066125539816216
+    second: Air Monk_397
+  - first:
+      213: 7814280311761406984
+    second: Air Monk_398
+  - first:
+      213: 1473666658400080786
+    second: Air Monk_399
+  - first:
+      213: 7427307341867853830
+    second: Air Monk_400
+  - first:
+      213: 1136972179772004972
+    second: Air Monk_401
+  - first:
+      213: 4621079473059589938
+    second: Air Monk_402
+  - first:
+      213: -5982771211910223656
+    second: Air Monk_403
+  - first:
+      213: 3213318232719450509
+    second: Air Monk_404
+  - first:
+      213: 4135907317191111358
+    second: Air Monk_405
+  - first:
+      213: -7348990585008214687
+    second: Air Monk_406
+  - first:
+      213: 4983868909254763793
+    second: Air Monk_407
+  - first:
+      213: 9156089243910828268
+    second: Air Monk_408
+  - first:
+      213: 8463920265175820632
+    second: Air Monk_409
+  - first:
+      213: -8663525810352577627
+    second: Air Monk_410
+  - first:
+      213: 8473006926239633063
+    second: Air Monk_411
+  - first:
+      213: -7187094119960635369
+    second: Air Monk_412
+  - first:
+      213: -8704957729827064761
+    second: Air Monk_413
+  - first:
+      213: -3058081705487717317
+    second: Air Monk_414
+  - first:
+      213: 7102973865380081790
+    second: Air Monk_415
+  - first:
+      213: -4961221525409050467
+    second: Air Monk_416
+  - first:
+      213: -8727360310885407952
+    second: Air Monk_417
+  - first:
+      213: -2875316503114374287
+    second: Air Monk_418
+  - first:
+      213: -5229825280703582600
+    second: Air Monk_419
+  - first:
+      213: -4016198287200326956
+    second: Air Monk_420
+  - first:
+      213: -2208852523653568078
+    second: Air Monk_421
+  - first:
+      213: 6655518105733374719
+    second: Air Monk_422
+  - first:
+      213: -2297769321145581938
+    second: Air Monk_423
+  - first:
+      213: -3269178403671934618
+    second: Air Monk_424
+  - first:
+      213: -1180186160587591511
+    second: Air Monk_425
+  - first:
+      213: -4988533724872678041
+    second: Air Monk_426
+  - first:
+      213: -249982648919278929
+    second: Air Monk_427
+  - first:
+      213: 4990132556787421120
+    second: Air Monk_428
+  - first:
+      213: 1602502895288106327
+    second: Air Monk_429
+  - first:
+      213: 362997471018910570
+    second: Air Monk_430
+  - first:
+      213: 4573793426423373316
+    second: Air Monk_431
+  - first:
+      213: 330378893855193086
+    second: Air Monk_432
+  - first:
+      213: -7544069718645959926
+    second: Air Monk_433
+  - first:
+      213: 928405105406562549
+    second: Air Monk_434
+  - first:
+      213: 8106271653821033936
+    second: Air Monk_435
+  - first:
+      213: 1372145913575731002
+    second: Air Monk_436
+  - first:
+      213: -9066680126934624883
+    second: Air Monk_437
+  - first:
+      213: 3867655852533596516
+    second: Air Monk_438
+  - first:
+      213: -706104672731240772
+    second: Air Monk_439
+  - first:
+      213: 7139525037089720978
+    second: Air Monk_440
+  - first:
+      213: 7050225903588312050
+    second: Air Monk_441
+  - first:
+      213: -3724292113932785550
+    second: Air Monk_442
+  - first:
+      213: -8487100963608641395
+    second: Air Monk_443
+  - first:
+      213: 3162322169135035676
+    second: Air Monk_444
+  - first:
+      213: -8216324764524877066
+    second: Air Monk_445
+  - first:
+      213: 1200927362284542043
+    second: Air Monk_446
+  - first:
+      213: -1004597026722650385
+    second: Air Monk_447
+  - first:
+      213: -8070632689727481236
+    second: Air Monk_448
+  - first:
+      213: -3441995165228975644
+    second: Air Monk_449
+  - first:
+      213: 8521075348933871200
+    second: Air Monk_450
+  - first:
+      213: 1166924960625302981
+    second: Air Monk_451
+  - first:
+      213: -7812880901222238761
+    second: Air Monk_452
+  - first:
+      213: 6213234136786695208
+    second: Air Monk_453
+  - first:
+      213: 5083423790264696627
+    second: Air Monk_454
+  - first:
+      213: -1928316773820856533
+    second: Air Monk_455
+  - first:
+      213: 5183313104602438771
+    second: Air Monk_456
+  - first:
+      213: 8957260227182951737
+    second: Air Monk_457
+  - first:
+      213: 3849431160015399965
+    second: Air Monk_458
+  - first:
+      213: -8822961478172335817
+    second: Air Monk_459
+  - first:
+      213: 2613788949289882143
+    second: Air Monk_460
+  - first:
+      213: -3558573322598067724
+    second: Air Monk_461
+  - first:
+      213: 1063239461499340003
+    second: Air Monk_462
+  - first:
+      213: 6579790488536229997
+    second: Air Monk_463
+  - first:
+      213: 3747394508365331632
+    second: Air Monk_464
+  - first:
+      213: 3284857217090738626
+    second: Air Monk_465
+  - first:
+      213: -2717774548241947406
+    second: Air Monk_466
+  - first:
+      213: 8347011093654007910
+    second: Air Monk_467
+  - first:
+      213: 6180353769826994354
+    second: Air Monk_468
+  - first:
+      213: 2114900636089162175
+    second: Air Monk_469
+  - first:
+      213: -4252135866827118329
+    second: Air Monk_470
+  - first:
+      213: -5289502628332477781
+    second: Air Monk_471
+  - first:
+      213: 6326837255144607530
+    second: Air Monk_472
+  - first:
+      213: 2259054167640517176
+    second: Air Monk_473
+  - first:
+      213: 3227236295609576792
+    second: Air Monk_474
+  - first:
+      213: 6409863606809483838
+    second: Air Monk_475
+  - first:
+      213: 9016386492989920040
+    second: Air Monk_476
+  - first:
+      213: 4098488870793600115
+    second: Air Monk_477
+  - first:
+      213: -5547580159053985125
+    second: Air Monk_478
+  - first:
+      213: 6942527994369929285
+    second: Air Monk_479
+  - first:
+      213: 6622445538672928301
+    second: Air Monk_480
+  - first:
+      213: 2205695447356607022
+    second: Air Monk_481
+  - first:
+      213: 5525514851585677428
+    second: Air Monk_482
+  - first:
+      213: 4427033510154983528
+    second: Air Monk_483
+  - first:
+      213: -6102849587549099049
+    second: Air Monk_484
+  - first:
+      213: 8453213939091233080
+    second: Air Monk_485
+  - first:
+      213: -2520652591026790044
+    second: Air Monk_486
+  - first:
+      213: 1294551387315799705
+    second: Air Monk_487
+  - first:
+      213: 7675625714407037789
+    second: Air Monk_488
+  - first:
+      213: -8088139915175108338
+    second: Air Monk_489
+  - first:
+      213: 1068857660676822477
+    second: Air Monk_490
+  - first:
+      213: -298214443376516806
+    second: Air Monk_491
+  - first:
+      213: -5792260039883109853
+    second: Air Monk_492
+  - first:
+      213: 2257429378073482890
+    second: Air Monk_493
+  - first:
+      213: 3173081750598409381
+    second: Air Monk_494
+  - first:
+      213: 370770211513241135
+    second: Air Monk_495
+  - first:
+      213: -1856548343387928056
+    second: Air Monk_496
+  - first:
+      213: 3065816398222025818
+    second: Air Monk_497
+  - first:
+      213: 5080853568404957943
+    second: Air Monk_498
+  - first:
+      213: -6681813182706678823
+    second: Air Monk_499
+  - first:
+      213: -1015628120483600106
+    second: Air Monk_500
+  - first:
+      213: -1140546054011174375
+    second: Air Monk_501
+  - first:
+      213: 6266451296711922451
+    second: Air Monk_502
+  - first:
+      213: 2943254682001056228
+    second: Air Monk_503
+  - first:
+      213: -5687913275893793617
+    second: Air Monk_504
+  - first:
+      213: 108349894415103322
+    second: Air Monk_505
+  - first:
+      213: -2350718783244263477
+    second: Air Monk_506
+  - first:
+      213: -4854255750201684327
+    second: Air Monk_507
+  - first:
+      213: -8757360917921622577
+    second: Air Monk_508
+  - first:
+      213: -5131609845948780317
+    second: Air Monk_509
+  - first:
+      213: 3681112521090902645
+    second: Air Monk_510
+  - first:
+      213: -2594437336016843486
+    second: Air Monk_511
+  - first:
+      213: -2299749201709772461
+    second: Air Monk_512
+  - first:
+      213: -6926098221474651439
+    second: Air Monk_513
+  - first:
+      213: -796285150219850289
+    second: Air Monk_514
+  - first:
+      213: 5680220121415174342
+    second: Air Monk_515
+  - first:
+      213: 5438802940298729036
+    second: Air Monk_516
+  - first:
+      213: 5717620401235207298
+    second: Air Monk_517
+  - first:
+      213: -3796284062947327883
+    second: Air Monk_518
+  - first:
+      213: -8833638701024414664
+    second: Air Monk_519
+  - first:
+      213: 4355764733555806016
+    second: Air Monk_520
+  - first:
+      213: -6813555474753054538
+    second: Air Monk_521
+  - first:
+      213: 9122092272055211548
+    second: Air Monk_522
+  - first:
+      213: 6303121452506923134
+    second: Air Monk_523
+  - first:
+      213: 4426645659477744403
+    second: Air Monk_524
+  - first:
+      213: -2675988903863055976
+    second: Air Monk_525
+  - first:
+      213: 3810095577837806011
+    second: Air Monk_526
+  - first:
+      213: 5034008412012372878
+    second: Air Monk_527
+  - first:
+      213: -2271718825875867829
+    second: Air Monk_528
+  - first:
+      213: 1251708848218390433
+    second: Air Monk_529
+  - first:
+      213: 3401294935501793318
+    second: Air Monk_530
+  - first:
+      213: -456087513596562152
+    second: Air Monk_531
+  - first:
+      213: -2918138015231909796
+    second: Air Monk_532
+  - first:
+      213: -6196053767831626459
+    second: Air Monk_533
+  - first:
+      213: 3657308626020654022
+    second: Air Monk_534
+  - first:
+      213: -1740077257937195469
+    second: Air Monk_535
+  - first:
+      213: 6212897979787524209
+    second: Air Monk_536
+  - first:
+      213: 2119758280491031322
+    second: Air Monk_537
+  - first:
+      213: 3099307466420257895
+    second: Air Monk_538
+  - first:
+      213: -918193764487197931
+    second: Air Monk_539
+  - first:
+      213: 9111764590757860103
+    second: Air Monk_540
+  - first:
+      213: -8579704658750446685
+    second: Air Monk_541
+  - first:
+      213: -6213771312689831506
+    second: Air Monk_542
+  - first:
+      213: 847271571455548906
+    second: Air Monk_543
+  - first:
+      213: -4177451141290875701
+    second: Air Monk_544
+  - first:
+      213: -1334292503779780729
+    second: Air Monk_545
+  - first:
+      213: -3927479125826012446
+    second: Air Monk_546
+  - first:
+      213: 2991942946148666236
+    second: Air Monk_547
+  - first:
+      213: -999744376057474611
+    second: Air Monk_548
+  - first:
+      213: -3110944349455617904
+    second: Air Monk_549
+  - first:
+      213: 4820306666426002371
+    second: Air Monk_550
+  - first:
+      213: 6100752927365316888
+    second: Air Monk_551
+  - first:
+      213: 8769008209068317591
+    second: Air Monk_552
+  - first:
+      213: 890433860918466338
+    second: Air Monk_553
+  - first:
+      213: 8649279986331422448
+    second: Air Monk_554
+  - first:
+      213: -3451338474770177702
+    second: Air Monk_555
+  - first:
+      213: 2962543527497070531
+    second: Air Monk_556
+  - first:
+      213: 2474996881492537449
+    second: Air Monk_557
+  - first:
+      213: -4472169133426210580
+    second: Air Monk_558
+  - first:
+      213: -3639772423434387841
+    second: Air Monk_559
+  - first:
+      213: 3793410207534640359
+    second: Air Monk_560
+  - first:
+      213: -5347915549221689163
+    second: Air Monk_561
+  - first:
+      213: 6995410348588173977
+    second: Air Monk_562
+  - first:
+      213: 5561640493408625890
+    second: Air Monk_563
+  - first:
+      213: -8675658752543881185
+    second: Air Monk_564
+  - first:
+      213: 5197973886756540358
+    second: Air Monk_565
+  - first:
+      213: 1075596847899690035
+    second: Air Monk_566
+  - first:
+      213: -7463286301605161834
+    second: Air Monk_567
+  - first:
+      213: -393342020115666547
+    second: Air Monk_568
+  - first:
+      213: 4623727825420600434
+    second: Air Monk_569
+  - first:
+      213: 3140249239878351732
+    second: Air Monk_570
+  - first:
+      213: -3228183478839618295
+    second: Air Monk_571
+  - first:
+      213: 407317408553508742
+    second: Air Monk_572
+  - first:
+      213: 5784899900080846340
+    second: Air Monk_573
+  - first:
+      213: -4579692779244990256
+    second: Air Monk_574
+  - first:
+      213: -896134521569481878
+    second: Air Monk_575
+  - first:
+      213: -818285884135060522
+    second: Air Monk_576
+  - first:
+      213: 505334140408584418
+    second: Air Monk_577
+  - first:
+      213: 7601015499825584358
+    second: Air Monk_578
+  - first:
+      213: 4203928244765402764
+    second: Air Monk_579
+  - first:
+      213: 8313851204866601326
+    second: Air Monk_580
+  - first:
+      213: -492334451528943133
+    second: Air Monk_581
+  - first:
+      213: -4403959803089060330
+    second: Air Monk_582
+  - first:
+      213: -9029627178423405883
+    second: Air Monk_583
+  - first:
+      213: 722425879311931352
+    second: Air Monk_584
+  - first:
+      213: 2438628582133455501
+    second: Air Monk_585
+  - first:
+      213: 2918697636366283187
+    second: Air Monk_586
+  - first:
+      213: -2871750082797050191
+    second: Air Monk_587
+  - first:
+      213: 8814237050484851063
+    second: Air Monk_588
+  - first:
+      213: 2297621652502621361
+    second: Air Monk_589
+  - first:
+      213: -8033469167785524461
+    second: Air Monk_590
+  - first:
+      213: -4435312194799876418
+    second: Air Monk_591
+  - first:
+      213: 2934259990046670645
+    second: Air Monk_592
+  - first:
+      213: 414147323230353752
+    second: Air Monk_593
+  - first:
+      213: -4546313567628255711
+    second: Air Monk_594
+  - first:
+      213: -3224949498205598922
+    second: Air Monk_595
+  - first:
+      213: 4321054469185501524
+    second: Air Monk_596
+  - first:
+      213: 5555326488842571856
+    second: Air Monk_597
+  - first:
+      213: 5627140757535760324
+    second: Air Monk_598
+  - first:
+      213: 5899329500452046795
+    second: Air Monk_599
+  - first:
+      213: 7442133118451808740
+    second: Air Monk_600
+  - first:
+      213: 6562112539539033004
+    second: Air Monk_601
+  - first:
+      213: -3585315325489498761
+    second: Air Monk_602
+  - first:
+      213: 9076443118286960356
+    second: Air Monk_603
+  - first:
+      213: 874047098419118671
+    second: Air Monk_604
+  - first:
+      213: 1472220410637874715
+    second: Air Monk_605
+  - first:
+      213: -3006754090667109688
+    second: Air Monk_606
+  - first:
+      213: -2728324508561295186
+    second: Air Monk_607
+  - first:
+      213: -6048384458507435451
+    second: Air Monk_608
+  - first:
+      213: 5254820486592883828
+    second: Air Monk_609
+  - first:
+      213: -1209778665228083925
+    second: Air Monk_610
+  - first:
+      213: -6150623215860643891
+    second: Air Monk_611
+  - first:
+      213: -4702183707407786827
+    second: Air Monk_612
+  - first:
+      213: -5998600082262568812
+    second: Air Monk_613
+  - first:
+      213: -2610492721609818316
+    second: Air Monk_614
+  - first:
+      213: -8319183242284771431
+    second: Air Monk_615
+  - first:
+      213: -3587768234289848433
+    second: Air Monk_616
+  - first:
+      213: -5736581077903812759
+    second: Air Monk_617
+  - first:
+      213: -3164943656386323830
+    second: Air Monk_618
+  - first:
+      213: -4398144808881453286
+    second: Air Monk_619
+  - first:
+      213: 3688131028265353632
+    second: Air Monk_620
+  - first:
+      213: -1834166670980985295
+    second: Air Monk_621
+  - first:
+      213: 2328258308664492897
+    second: Air Monk_622
+  - first:
+      213: 4580364721446208728
+    second: Air Monk_623
+  - first:
+      213: 8426072638884301436
+    second: Air Monk_624
+  - first:
+      213: -7311632633461783530
+    second: Air Monk_625
+  - first:
+      213: -2687254111231658464
+    second: Air Monk_626
+  - first:
+      213: -5692789037570904033
+    second: Air Monk_627
+  - first:
+      213: 5524447419292536305
+    second: Air Monk_628
+  - first:
+      213: 5247379636766683819
+    second: Air Monk_629
+  - first:
+      213: -7888826694712845896
+    second: Air Monk_630
+  - first:
+      213: -8828628017339235592
+    second: Air Monk_631
+  - first:
+      213: -8904456465111535935
+    second: Air Monk_632
+  - first:
+      213: 6614756044247900755
+    second: Air Monk_633
+  - first:
+      213: 5875470865690406315
+    second: Air Monk_634
+  - first:
+      213: 3908018898761122843
+    second: Air Monk_635
+  - first:
+      213: -17755848084317622
+    second: Air Monk_636
+  - first:
+      213: -7373205747075669627
+    second: Air Monk_637
+  - first:
+      213: -1406630528417766808
+    second: Air Monk_638
+  - first:
+      213: -2638670637231860674
+    second: Air Monk_639
+  - first:
+      213: 651666218253198068
+    second: Air Monk_640
+  - first:
+      213: 3892566480989376392
+    second: Air Monk_641
+  - first:
+      213: -5702298526776335829
+    second: Air Monk_642
+  - first:
+      213: 9115901475108007486
+    second: Air Monk_643
+  - first:
+      213: -9024583287239642602
+    second: Air Monk_644
+  - first:
+      213: 8514531847380601229
+    second: Air Monk_645
+  - first:
+      213: -2308787281330875357
+    second: Air Monk_646
+  - first:
+      213: 1365968571663063294
+    second: Air Monk_647
+  - first:
+      213: -9191407482901699649
+    second: Air Monk_648
+  - first:
+      213: -4670988470156473494
+    second: Air Monk_649
+  - first:
+      213: 195288859415777241
+    second: Air Monk_650
+  - first:
+      213: -488710951191801904
+    second: Air Monk_651
+  - first:
+      213: -4431268956266729996
+    second: Air Monk_652
+  - first:
+      213: -4816936098679323443
+    second: Air Monk_653
+  - first:
+      213: -7995677905492099454
+    second: Air Monk_654
+  - first:
+      213: 561079516395213348
+    second: Air Monk_655
+  - first:
+      213: 102852731021536720
+    second: Air Monk_656
+  - first:
+      213: -1121958382323776255
+    second: Air Monk_657
+  - first:
+      213: 8579164894497983437
+    second: Air Monk_658
+  - first:
+      213: 1983965182736129577
+    second: Air Monk_659
+  - first:
+      213: 5176245015895463106
+    second: Air Monk_660
+  - first:
+      213: 5185758441640560558
+    second: Air Monk_661
+  - first:
+      213: -7664240294329212409
+    second: Air Monk_662
+  - first:
+      213: 9077244291091304396
+    second: Air Monk_663
+  - first:
+      213: 3362016644513464296
+    second: Air Monk_664
+  - first:
+      213: -1558418881381934941
+    second: Air Monk_665
+  - first:
+      213: -8383180751288034319
+    second: Air Monk_666
+  - first:
+      213: 8361053733081923166
+    second: Air Monk_667
+  - first:
+      213: -249208811579230309
+    second: Air Monk_668
+  - first:
+      213: -6952403387790228245
+    second: Air Monk_669
+  - first:
+      213: -1019917071465891184
+    second: Air Monk_670
+  - first:
+      213: -8410666172211159481
+    second: Air Monk_671
+  - first:
+      213: -1445267988063308396
+    second: Air Monk_672
+  - first:
+      213: 8119234177461817777
+    second: Air Monk_673
+  - first:
+      213: 1465590411809849337
+    second: Air Monk_674
+  - first:
+      213: 706180084696864563
+    second: Air Monk_675
+  - first:
+      213: 6538077626616284570
+    second: Air Monk_676
+  - first:
+      213: -3936701232116064536
+    second: Air Monk_677
+  - first:
+      213: -8339272056296229726
+    second: Air Monk_678
+  - first:
+      213: 1491978776755073374
+    second: Air Monk_679
+  - first:
+      213: -6174139076299494776
+    second: Air Monk_680
+  - first:
+      213: -7094106513821748085
+    second: Air Monk_681
+  - first:
+      213: -3865176295189774555
+    second: Air Monk_682
+  - first:
+      213: 3204075609748478396
+    second: Air Monk_683
+  - first:
+      213: -5681567415577029603
+    second: Air Monk_684
+  - first:
+      213: 8223772563887377861
+    second: Air Monk_685
+  - first:
+      213: 7680268613875864049
+    second: Air Monk_686
+  - first:
+      213: -9215742791152573176
+    second: Air Monk_687
+  - first:
+      213: -4716198944925019291
+    second: Air Monk_688
+  - first:
+      213: 6866110219681630078
+    second: Air Monk_689
+  - first:
+      213: 9010025009198777958
+    second: Air Monk_690
+  - first:
+      213: 5358468521218677958
+    second: Air Monk_691
+  - first:
+      213: -637311583760347960
+    second: Air Monk_692
+  - first:
+      213: 4105427371161654550
+    second: Air Monk_693
+  - first:
+      213: 8506166226556400855
+    second: Air Monk_694
+  - first:
+      213: 1371129837848129055
+    second: Air Monk_695
+  - first:
+      213: -1793068696136928281
+    second: Air Monk_696
+  - first:
+      213: -5031394453654692813
+    second: Air Monk_697
+  - first:
+      213: -7873800755802952895
+    second: Air Monk_698
+  - first:
+      213: 8474862724983555040
+    second: Air Monk_699
+  - first:
+      213: -3887543545888385534
+    second: Air Monk_700
+  - first:
+      213: 8196805286830611765
+    second: Air Monk_701
+  - first:
+      213: -3993649531830855553
+    second: Air Monk_702
+  - first:
+      213: -1780498542619674737
+    second: Air Monk_703
+  - first:
+      213: 7777546673597081523
+    second: Air Monk_704
+  - first:
+      213: -1880254656357865452
+    second: Air Monk_705
+  - first:
+      213: 4398721289405486745
+    second: Air Monk_706
+  - first:
+      213: 6774554227799614685
+    second: Air Monk_707
+  - first:
+      213: 1552690813218577458
+    second: Air Monk_708
+  - first:
+      213: -3494732542363999108
+    second: Air Monk_709
+  - first:
+      213: 4312443491391857511
+    second: Air Monk_710
+  - first:
+      213: -4479111668934865510
+    second: Air Monk_711
+  - first:
+      213: 5797037911282281055
+    second: Air Monk_712
+  - first:
+      213: -6899683768037628497
+    second: Air Monk_713
+  - first:
+      213: 1585623353428249833
+    second: Air Monk_714
+  - first:
+      213: 1161519213709778321
+    second: Air Monk_715
+  - first:
+      213: 1980438251287263088
+    second: Air Monk_716
+  - first:
+      213: -4394759994593393285
+    second: Air Monk_717
+  - first:
+      213: 1223091050361735512
+    second: Air Monk_718
+  - first:
+      213: 5852494962278758622
+    second: Air Monk_719
+  - first:
+      213: 157200154336356327
+    second: Air Monk_720
+  - first:
+      213: 6133547748471682995
+    second: Air Monk_721
+  - first:
+      213: -6058829465999717586
+    second: Air Monk_722
+  - first:
+      213: 2976868534678109769
+    second: Air Monk_723
+  - first:
+      213: 459915625985626451
+    second: Air Monk_724
+  - first:
+      213: 5375298234128720559
+    second: Air Monk_725
+  - first:
+      213: 469671928841591965
+    second: Air Monk_726
+  - first:
+      213: 3728956677737039274
+    second: Air Monk_727
+  - first:
+      213: -4832649523999157032
+    second: Air Monk_728
+  - first:
+      213: 8185392424143817029
+    second: Air Monk_729
+  - first:
+      213: -8469906224608504807
+    second: Air Monk_730
+  - first:
+      213: 980482403011756457
+    second: Air Monk_731
+  - first:
+      213: -2950234074108831314
+    second: Air Monk_732
+  - first:
+      213: 7459953024243108237
+    second: Air Monk_733
+  - first:
+      213: -7999856493416652672
+    second: Air Monk_734
+  - first:
+      213: -7948329783286730887
+    second: Air Monk_735
+  - first:
+      213: 8069574368240122150
+    second: Air Monk_736
+  - first:
+      213: -8571186705598339492
+    second: Air Monk_737
+  - first:
+      213: -627286050890049460
+    second: Air Monk_738
+  - first:
+      213: -1798866162158533760
+    second: Air Monk_739
+  - first:
+      213: 7025201921536752862
+    second: Air Monk_740
+  - first:
+      213: 8028805590697216472
+    second: Air Monk_741
+  - first:
+      213: -5954981272806356039
+    second: Air Monk_742
+  - first:
+      213: 487370747795160780
+    second: Air Monk_743
+  - first:
+      213: 7655840076204333471
+    second: Air Monk_744
+  - first:
+      213: -5454215302108920883
+    second: Air Monk_745
+  - first:
+      213: 4403876422390282853
+    second: Air Monk_746
+  - first:
+      213: -2761006175203967787
+    second: Air Monk_747
+  - first:
+      213: -7344225763099755900
+    second: Air Monk_748
+  - first:
+      213: 1156736338300242379
+    second: Air Monk_749
+  - first:
+      213: 7556981612259761802
+    second: Air Monk_750
+  - first:
+      213: 4494572015913254962
+    second: Air Monk_751
+  - first:
+      213: -4679906182796030997
+    second: Air Monk_752
+  - first:
+      213: -1578227264459189828
+    second: Air Monk_753
+  - first:
+      213: 5337124545031277520
+    second: Air Monk_754
+  - first:
+      213: 579875873169967900
+    second: Air Monk_755
+  - first:
+      213: -7146652270674339260
+    second: Air Monk_756
+  - first:
+      213: -6088239043873060264
+    second: Air Monk_757
+  - first:
+      213: -4955739332123920376
+    second: Air Monk_758
+  - first:
+      213: 2867773849271184828
+    second: Air Monk_759
+  - first:
+      213: -6193803044768701665
+    second: Air Monk_760
+  - first:
+      213: -3235324065131397964
+    second: Air Monk_761
+  - first:
+      213: 8929290750282549894
+    second: Air Monk_762
+  - first:
+      213: -6222714862101128559
+    second: Air Monk_763
+  - first:
+      213: 927437845436265061
+    second: Air Monk_764
+  - first:
+      213: -667126437717633453
+    second: Air Monk_765
+  - first:
+      213: -2121882205634764222
+    second: Air Monk_766
+  - first:
+      213: 7244704461565555060
+    second: Air Monk_767
+  - first:
+      213: 1734497982366416837
+    second: Air Monk_768
+  - first:
+      213: 8255114787890887903
+    second: Air Monk_769
+  - first:
+      213: 2845950413610036611
+    second: Air Monk_770
+  - first:
+      213: 4481418126318145235
+    second: Air Monk_771
+  - first:
+      213: 2774611344201370241
+    second: Air Monk_772
+  - first:
+      213: 1489450179576502340
+    second: Air Monk_773
+  - first:
+      213: -6363147541642886006
+    second: Air Monk_774
+  - first:
+      213: 2224520708035926055
+    second: Air Monk_775
+  - first:
+      213: -7262851059547678287
+    second: Air Monk_776
+  - first:
+      213: -6225431855977643637
+    second: Air Monk_777
+  - first:
+      213: -9147838508813446063
+    second: Air Monk_778
+  - first:
+      213: -3057039019904561501
+    second: Air Monk_779
+  - first:
+      213: -6659432638954433483
+    second: Air Monk_780
+  - first:
+      213: -8084560897648729057
+    second: Air Monk_781
+  - first:
+      213: 1184773276698733948
+    second: Air Monk_782
+  - first:
+      213: -5790653992730913431
+    second: Air Monk_783
+  - first:
+      213: -2306239181879177500
+    second: Air Monk_784
+  - first:
+      213: 2436636472868854963
+    second: Air Monk_785
+  - first:
+      213: -3354859029186318771
+    second: Air Monk_786
+  - first:
+      213: -3515913756034747113
+    second: Air Monk_787
+  - first:
+      213: 7813525050004671450
+    second: Air Monk_788
+  - first:
+      213: -7927733060815575770
+    second: Air Monk_789
+  - first:
+      213: 2073782049793144433
+    second: Air Monk_790
+  - first:
+      213: -8929430584592446423
+    second: Air Monk_791
+  - first:
+      213: 4371473268248620641
+    second: Air Monk_792
+  - first:
+      213: 8318057365446259888
+    second: Air Monk_793
+  - first:
+      213: 6036179017718952358
+    second: Air Monk_794
+  - first:
+      213: -4314787931380387228
+    second: Air Monk_795
+  - first:
+      213: -4113061396385684597
+    second: Air Monk_796
+  - first:
+      213: -2290162103360802108
+    second: Air Monk_797
+  - first:
+      213: 6998112506747443349
+    second: Air Monk_798
+  - first:
+      213: 2835392590516333589
+    second: Air Monk_799
+  - first:
+      213: 9146139007908892188
+    second: Air Monk_800
+  - first:
+      213: 442382902206906875
+    second: Air Monk_801
+  - first:
+      213: -5222506842806331531
+    second: Air Monk_802
+  - first:
+      213: -4801519824565283731
+    second: Air Monk_803
+  - first:
+      213: -682292155059597083
+    second: Air Monk_804
+  - first:
+      213: 7838908914981384935
+    second: Air Monk_805
+  - first:
+      213: 9176536651412254499
+    second: Air Monk_806
+  - first:
+      213: 1390110072990292029
+    second: Air Monk_807
+  - first:
+      213: -7495202522573701872
+    second: Air Monk_808
+  - first:
+      213: -2868083748492646840
+    second: Air Monk_809
+  - first:
+      213: -156514481125850744
+    second: Air Monk_810
+  - first:
+      213: 837008146579007873
+    second: Air Monk_811
+  - first:
+      213: -2553760810375898652
+    second: Air Monk_812
+  - first:
+      213: 6575883385879593938
+    second: Air Monk_813
+  - first:
+      213: 5091355807600083660
+    second: Air Monk_814
+  - first:
+      213: -7290559976108830116
+    second: Air Monk_815
+  - first:
+      213: 4303647893737809255
+    second: Air Monk_816
+  - first:
+      213: 5763495758415172358
+    second: Air Monk_817
+  - first:
+      213: -6495632628598630382
+    second: Air Monk_818
+  - first:
+      213: -9068722013074239067
+    second: Air Monk_819
+  - first:
+      213: -429038719801288738
+    second: Air Monk_820
+  - first:
+      213: 5319933401078652371
+    second: Air Monk_821
+  - first:
+      213: 4392482336615259922
+    second: Air Monk_822
+  - first:
+      213: -7553346587202327539
+    second: Air Monk_823
+  - first:
+      213: -8606328289656686793
+    second: Air Monk_824
+  - first:
+      213: 7461437312118818925
+    second: Air Monk_825
+  - first:
+      213: -7619387509954902930
+    second: Air Monk_826
+  - first:
+      213: -6243509137046547645
+    second: Air Monk_827
+  - first:
+      213: -7857731858815434471
+    second: Air Monk_828
+  - first:
+      213: -4202480540731757603
+    second: Air Monk_829
+  - first:
+      213: -6340687894394020075
+    second: Air Monk_830
+  - first:
+      213: -4227164394124994806
+    second: Air Monk_831
+  - first:
+      213: 805347088990886531
+    second: Air Monk_832
+  - first:
+      213: 8552922357618846538
+    second: Air Monk_833
+  - first:
+      213: -8315199479348474485
+    second: Air Monk_834
+  - first:
+      213: -7966720242993118027
+    second: Air Monk_835
+  - first:
+      213: 913268882899345156
+    second: Air Monk_836
+  - first:
+      213: -742286042695401265
+    second: Air Monk_837
+  - first:
+      213: 6322416682335688827
+    second: Air Monk_838
+  - first:
+      213: 434365929545359557
+    second: Air Monk_839
+  - first:
+      213: -1197295666875954617
+    second: Air Monk_840
+  - first:
+      213: 3464633412920779420
+    second: Air Monk_841
+  - first:
+      213: 4079697299383640830
+    second: Air Monk_842
+  - first:
+      213: 6548772815896455905
+    second: Air Monk_843
+  - first:
+      213: 1290146965967268089
+    second: Air Monk_844
+  - first:
+      213: 5982325459551757348
+    second: Air Monk_845
+  - first:
+      213: 1431215299032658976
+    second: Air Monk_846
+  - first:
+      213: -7330858400874160741
+    second: Air Monk_847
+  - first:
+      213: 418421366959661257
+    second: Air Monk_848
+  - first:
+      213: 3050894038021280823
+    second: Air Monk_849
+  - first:
+      213: -5056522368475023526
+    second: Air Monk_850
+  - first:
+      213: -782231816313537552
+    second: Air Monk_851
+  - first:
+      213: 365112684850001103
+    second: Air Monk_852
+  - first:
+      213: -4564052367507558372
+    second: Air Monk_853
+  - first:
+      213: 8754008587164345018
+    second: Air Monk_854
+  - first:
+      213: 1220650824360005260
+    second: Air Monk_855
+  - first:
+      213: 1229929090962923045
+    second: Air Monk_856
+  - first:
+      213: 8272558901632587698
+    second: Air Monk_857
+  - first:
+      213: 2275415680404430751
+    second: Air Monk_858
+  - first:
+      213: 4549233424014723931
+    second: Air Monk_859
+  - first:
+      213: -6414839027831780502
+    second: Air Monk_860
+  - first:
+      213: 698833059559461034
+    second: Air Monk_861
+  - first:
+      213: 109258345053125346
+    second: Air Monk_862
+  - first:
+      213: 4758823701624589396
+    second: Air Monk_863
+  - first:
+      213: -1382551165539574502
+    second: Air Monk_864
+  - first:
+      213: 7151427885526165019
+    second: Air Monk_865
+  - first:
+      213: 8694418608637629766
+    second: Air Monk_866
+  - first:
+      213: -3284545417501915434
+    second: Air Monk_867
+  - first:
+      213: 7184678640410856191
+    second: Air Monk_868
+  - first:
+      213: -227089239351382826
+    second: Air Monk_869
+  - first:
+      213: -1269283176641321099
+    second: Air Monk_870
+  - first:
+      213: -5880612316372542291
+    second: Air Monk_871
+  - first:
+      213: 5255879895036528513
+    second: Air Monk_872
+  - first:
+      213: -1428800183098042890
+    second: Air Monk_873
+  - first:
+      213: 302331125855631412
+    second: Air Monk_874
+  - first:
+      213: -7082230541306707800
+    second: Air Monk_875
+  - first:
+      213: -4662787297804274137
+    second: Air Monk_876
+  - first:
+      213: 4781018891591581846
+    second: Air Monk_877
+  - first:
+      213: -995776428763709806
+    second: Air Monk_878
+  - first:
+      213: -113072192631271348
+    second: Air Monk_879
+  - first:
+      213: -7357246724723848461
+    second: Air Monk_880
+  - first:
+      213: -5374516606729351515
+    second: Air Monk_881
+  - first:
+      213: -568899889309140405
+    second: Air Monk_882
+  - first:
+      213: -4208884630633089743
+    second: Air Monk_883
+  - first:
+      213: 1108605736255236773
+    second: Air Monk_884
+  - first:
+      213: 4699372708537604913
+    second: Air Monk_885
+  - first:
+      213: 2593410920791647280
+    second: Air Monk_886
+  - first:
+      213: 5718131324324361415
+    second: Air Monk_887
+  - first:
+      213: -2219283377291126355
+    second: Air Monk_888
+  - first:
+      213: 6023969943326867940
+    second: Air Monk_889
+  - first:
+      213: 7016389734987769659
+    second: Air Monk_890
+  - first:
+      213: -6444168982299868073
+    second: Air Monk_891
+  - first:
+      213: -6202092135756352671
+    second: Air Monk_892
+  - first:
+      213: -615178857954206262
+    second: Air Monk_893
+  - first:
+      213: -4373018397490041395
+    second: Air Monk_894
+  - first:
+      213: 1443221517134214188
+    second: Air Monk_895
+  - first:
+      213: 258368496268309604
+    second: Air Monk_896
+  - first:
+      213: -8268975462377145613
+    second: Air Monk_897
+  - first:
+      213: 2468338095443245011
+    second: Air Monk_898
+  - first:
+      213: 6814392701192085805
+    second: Air Monk_899
+  - first:
+      213: -1315385177823025110
+    second: Air Monk_900
+  - first:
+      213: 7100518717251292246
+    second: Air Monk_901
+  - first:
+      213: -4101761160474044376
+    second: Air Monk_902
+  - first:
+      213: -2777367681392541939
+    second: Air Monk_903
+  - first:
+      213: 626459436080609297
+    second: Air Monk_904
+  - first:
+      213: -6870410018894837787
+    second: Air Monk_905
+  - first:
+      213: -259397572045068123
+    second: Air Monk_906
+  - first:
+      213: -2125323309265240873
+    second: Air Monk_907
+  - first:
+      213: 4372153436079913967
+    second: Air Monk_908
+  - first:
+      213: 3658420855825219792
+    second: Air Monk_909
+  - first:
+      213: 3314045952905348526
+    second: Air Monk_910
+  - first:
+      213: -3350107692827663937
+    second: Air Monk_911
+  - first:
+      213: -5510469996804263134
+    second: Air Monk_912
+  - first:
+      213: 5149554574911810
+    second: Air Monk_913
+  - first:
+      213: 6043865571272059396
+    second: Air Monk_914
+  - first:
+      213: -7729187598793989873
+    second: Air Monk_915
+  - first:
+      213: -451393053788839338
+    second: Air Monk_916
+  - first:
+      213: -3299861762316146465
+    second: Air Monk_917
+  - first:
+      213: 2182404958146095815
+    second: Air Monk_918
+  - first:
+      213: -3640129225151688269
+    second: Air Monk_919
+  - first:
+      213: 8636688975908154893
+    second: Air Monk_920
+  - first:
+      213: -5970144041623340533
+    second: Air Monk_921
+  - first:
+      213: -8944510417633599137
+    second: Air Monk_922
+  - first:
+      213: 974641399551095111
+    second: Air Monk_923
+  - first:
+      213: -4629654470826900311
+    second: Air Monk_924
+  - first:
+      213: 7062841832195140670
+    second: Air Monk_925
+  - first:
+      213: -5585235608635172983
+    second: Air Monk_926
+  - first:
+      213: 5396033638148959734
+    second: Air Monk_927
+  - first:
+      213: 2603008043521525075
+    second: Air Monk_928
+  - first:
+      213: -3893280248663137451
+    second: Air Monk_929
+  - first:
+      213: 654878637399448798
+    second: Air Monk_930
+  - first:
+      213: -2577378814900447283
+    second: Air Monk_931
+  - first:
+      213: 3644821053733139309
+    second: Air Monk_932
+  - first:
+      213: 5555779457351693680
+    second: Air Monk_933
+  - first:
+      213: -5513145627205065348
+    second: Air Monk_934
+  - first:
+      213: -2794274576628523704
+    second: Air Monk_935
+  - first:
+      213: 3290596755704857866
+    second: Air Monk_936
+  - first:
+      213: -8488215130658079464
+    second: Air Monk_937
+  - first:
+      213: 2606425106582951590
+    second: Air Monk_938
+  - first:
+      213: -5814565278489976061
+    second: Air Monk_939
+  - first:
+      213: -7443274334520362528
+    second: Air Monk_940
+  - first:
+      213: 5730495458612496972
+    second: Air Monk_941
+  - first:
+      213: 3431386205523681963
+    second: Air Monk_942
+  - first:
+      213: 4069953008361332191
+    second: Air Monk_943
+  - first:
+      213: -6580381697457296044
+    second: Air Monk_944
+  - first:
+      213: -7293916131136128221
+    second: Air Monk_945
+  - first:
+      213: -9139447591014165816
+    second: Air Monk_946
+  - first:
+      213: -342891792062379468
+    second: Air Monk_947
+  - first:
+      213: 7689957488469756575
+    second: Air Monk_948
+  - first:
+      213: -6153649796789475823
+    second: Air Monk_949
+  - first:
+      213: -7095639745085941404
+    second: Air Monk_950
+  - first:
+      213: 4514279261593897834
+    second: Air Monk_951
+  - first:
+      213: 5966735705620009453
+    second: Air Monk_952
+  - first:
+      213: 7801114061930875433
+    second: Air Monk_953
+  - first:
+      213: 2528436914040899839
+    second: Air Monk_954
+  - first:
+      213: 2976881961459810562
+    second: Air Monk_955
+  - first:
+      213: 7367290470334862815
+    second: Air Monk_956
+  - first:
+      213: 866325531179954638
+    second: Air Monk_957
+  - first:
+      213: -1253611281573370228
+    second: Air Monk_958
+  - first:
+      213: -6457230041798049974
+    second: Air Monk_959
+  - first:
+      213: 1849964661697481802
+    second: Air Monk_960
+  - first:
+      213: -5660820166747795573
+    second: Air Monk_961
+  - first:
+      213: 385161838577434474
+    second: Air Monk_962
+  - first:
+      213: -8036289120911879649
+    second: Air Monk_963
+  - first:
+      213: 5189021126721439937
+    second: Air Monk_964
+  - first:
+      213: -2135073635088613934
+    second: Air Monk_965
+  - first:
+      213: -8286379311027707942
+    second: Air Monk_966
+  - first:
+      213: -7127013452715529740
+    second: Air Monk_967
+  - first:
+      213: 218991193046179610
+    second: Air Monk_968
+  - first:
+      213: 9057759497331556794
+    second: Air Monk_969
+  - first:
+      213: -4032198683252500191
+    second: Air Monk_970
+  - first:
+      213: -6969078950320625859
+    second: Air Monk_971
+  - first:
+      213: 4525673356634448942
+    second: Air Monk_972
+  - first:
+      213: -3422930473220190017
+    second: Air Monk_973
+  - first:
+      213: 5780724023076356817
+    second: Air Monk_974
+  - first:
+      213: 7263063890278958542
+    second: Air Monk_975
+  - first:
+      213: 6363141337809777650
+    second: Air Monk_976
+  - first:
+      213: 3428264739047297062
+    second: Air Monk_977
+  - first:
+      213: -6054360637223478946
+    second: Air Monk_978
+  - first:
+      213: -3642426356761428108
+    second: Air Monk_979
+  - first:
+      213: -5010762499692669913
+    second: Air Monk_980
+  - first:
+      213: -5222190724907017851
+    second: Air Monk_981
+  - first:
+      213: -5732330574623608279
+    second: Air Monk_982
+  - first:
+      213: -1976961581112975503
+    second: Air Monk_983
+  - first:
+      213: 9165217716806421803
+    second: Air Monk_984
+  - first:
+      213: -6692127579345006446
+    second: Air Monk_985
+  - first:
+      213: -6557365043416846853
+    second: Air Monk_986
+  - first:
+      213: -3490046623682142768
+    second: Air Monk_987
+  - first:
+      213: 3691623037381073702
+    second: Air Monk_988
+  - first:
+      213: -3941755202431122637
+    second: Air Monk_989
+  - first:
+      213: -7267851627148107397
+    second: Air Monk_990
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Air Monk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b914ba4db4251a50800000000000000
+      internalID: 6491134833345173940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b68fcf119279140800000000000000
+      internalID: 4726291491183946547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3605f9481d25670800000000000000
+      internalID: 8526107412104504300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0798db150e55b6e0800000000000000
+      internalID: -1822447098166470899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814b5d2ce94606fd0800000000000000
+      internalID: -2350768372451003368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29af2d8d6198c8390800000000000000
+      internalID: -7814720522174661998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b573cf66d0a26f0800000000000000
+      internalID: -708739255388120256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d8c8a4c1249be90800000000000000
+      internalID: -7009498655748223671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a4cd28c70200c00800000000000000
+      internalID: 864726847598643725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85c6daf9288ebaf0800000000000000
+      internalID: -378715604769127026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4290e0d2b711518b0800000000000000
+      internalID: -5182216575485343452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017b10bff0a97d260800000000000000
+      internalID: 7122330729136109328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8f2be5ec2b7ebc0800000000000000
+      internalID: -3753835164968224554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1672887ec13821300800000000000000
+      internalID: 221383491861358433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1551fa7730fe6560800000000000000
+      internalID: 7309043366345397530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_15
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9f7e1d375ee8a30800000000000000
+      internalID: 4219562186498374110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2a9332fc13bc650800000000000000
+      internalID: 6254147273253036714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37bf5f3cd06b4920800000000000000
+      internalID: 2975578477880653628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200124366e30e28e0800000000000000
+      internalID: -1716430119938945022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Monk_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609a7eb19eb07a910800000000000000
+      internalID: 1848459267882330374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 59ef9c9f565d99d4dbedc4b908566b0c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
