@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     
     public enum Element
     {
-        NONE, FIRE, EARTH, WATER, AIR 
+        NONE, WATER, FIRE, EARTH, AIR 
     }
 }
 
