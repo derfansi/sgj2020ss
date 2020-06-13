@@ -10,6 +10,8 @@ public class MyCursor : MonoBehaviour
     public float speed = 1;
     private Camera _camera;
     public bool down;
+    public bool cmp = false;
+    public static Air air;
     
     //Element Switch
     public enum Element
@@ -25,6 +27,7 @@ public class MyCursor : MonoBehaviour
     
     private void Start()
     {
+        air = GetComponent<Air>();
         element = Element.EARTH;
         Cursor.lockState = CursorLockMode.Locked;
         _camera = Camera.main;
@@ -33,13 +36,29 @@ public class MyCursor : MonoBehaviour
     private void Update()
     {
         //element switch
-        if (Input.GetKeyDown("q"))
+        if (Input.GetKeyDown("q") && !down)
         {
             element = (Element) (((int) element + 5) % 4);
         }
-        else  if (Input.GetKeyDown("e"))
+        else  if (Input.GetKeyDown("e") && !down)
         {
             element = (Element) (((int) element +3) % 4);
+        }
+        
+        //air
+        if (element == Element.AIR)
+        {
+            if (down && !cmp)
+            {
+                cmp = !cmp;
+                air.MouseDown();
+            }
+
+            if (!down && cmp)
+            {
+                cmp = !cmp;
+                air.MouseUp();
+            }
         }
         
         

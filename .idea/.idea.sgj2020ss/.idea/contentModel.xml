@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Justin\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Justin\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_sgj2020ss.1805780111.00" t="ExcludeRecursive" />
-    <e p="D:\Programmieren\Unity\sgj2020ss" t="IncludeRecursive">
+    <e p="C:\Users\jojom\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jojom\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_sgj2020ss.548606290.00" t="ExcludeRecursive" />
+    <e p="E:\git repos\sgj2020ss" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scenes" t="Include">
@@ -21,6 +21,8 @@
           </e>
         </e>
         <e p="scripts_jojo" t="Include">
+          <e p="Air.cs" t="Include" />
+          <e p="AirSlice.cs" t="Include" />
           <e p="BoulderScript.cs" t="Include" />
           <e p="CameraFollow2D.cs" t="Include" />
           <e p="GroundPillar.cs" t="Include" />
@@ -30,7 +32,7 @@
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
-      <e p="Packages" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
       <e p="sgj2020ss.sln" t="IncludeFlat" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
