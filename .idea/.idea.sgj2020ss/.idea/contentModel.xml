@@ -18,6 +18,7 @@
           </e>
         </e>
         <e p="scripts" t="Include">
+          <e p="Dashbar.cs" t="Include" />
           <e p="Healthbar.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="testHealth.cs" t="Include" />
