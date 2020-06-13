@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cursor : MonoBehaviour
+public class GroundPillar : Interactable
 {
     // Start is called before the first frame update
     void Start()
@@ -14,5 +14,16 @@ public class cursor : MonoBehaviour
     void Update()
     {
         
+    }
+
+
+    public override void MouseDown()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public override void MouseUp()
+    {
+        throw new System.NotImplementedException();
     }
 }
