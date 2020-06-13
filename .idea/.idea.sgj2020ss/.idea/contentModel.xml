@@ -14,6 +14,8 @@
             <e p="Enemy_Reflect.cs" t="Include" />
             <e p="Enemy_StayOnPlatform.cs" t="Include" />
             <e p="Enemy_Vertical.cs" t="Include" />
+            <e p="Fire.cs" t="Include" />
+            <e p="Firepit.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="Rod.cs" t="Include" />
           </e>
