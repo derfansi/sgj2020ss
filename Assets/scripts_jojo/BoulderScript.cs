@@ -48,24 +48,32 @@ public class BoulderScript : Interactable
    
    public override void MouseDown()
    {
-      Debug.Log("down");
-      this.cursor = cursor;
-      isHeld = true;
-      cursorScript.speed /= _rigidbody.mass * 2f;
-      gravityScale = _rigidbody.gravityScale;
-      _rigidbody.gravityScale = 0;
+      if (cursorScript.element == MyCursor.Element.EARTH)
+      {
+         Debug.Log("down");
+         this.cursor = cursor;
+         isHeld = true;
+         cursorScript.speed /= _rigidbody.mass * 2f;
+         gravityScale = _rigidbody.gravityScale;
+         _rigidbody.gravityScale = 0;
+      }
+     
    }
 
    public override void MouseUp()
    {
-      Debug.Log("up");
-      Vector2 throwVector = new Vector2(transform.position.x, transform.position.y) - lastPosition;
-      float speed = throwVector.magnitude / (Time.deltaTime * _rigidbody.mass);
-      Vector2 throwVelocity = speed * throwVector.normalized;
-      _rigidbody.velocity = throwVelocity;
-      _rigidbody.gravityScale = gravityScale;
-      cursorScript.speed *= _rigidbody.mass * 2f;
-      isHeld = false;
+      if (cursorScript.element == MyCursor.Element.EARTH)
+      {
+         Debug.Log("up");
+         Vector2 throwVector = new Vector2(transform.position.x, transform.position.y) - lastPosition;
+         float speed = throwVector.magnitude / (Time.deltaTime * _rigidbody.mass);
+         Vector2 throwVelocity = speed * throwVector.normalized;
+         _rigidbody.velocity = throwVelocity;
+         _rigidbody.gravityScale = gravityScale;
+         cursorScript.speed *= _rigidbody.mass * 2f;
+         isHeld = false;
+      }
+      
    }
 
    
