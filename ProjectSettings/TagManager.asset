@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Cursor
   - Interactable
+  - Fireball
   layers:
   - Default
   - TransparentFX
@@ -22,6 +23,8 @@ TagManager:
   - Reflect_Endpoint
   - Rod_Endpoint
   - Rod
+  - 
+  - 
   - 
   - 
   - 

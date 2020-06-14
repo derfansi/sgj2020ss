@@ -60,5 +60,3 @@ crashlytics-build.properties
 
 #ignore rider
 .idea
-Assets/Scenes.meta
-Assets/Scenes/SampleScene.unity.meta
