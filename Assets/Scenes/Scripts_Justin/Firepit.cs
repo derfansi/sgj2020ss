@@ -47,7 +47,7 @@ public class Firepit : Interactable
 
     public override void MouseDown()
     {
-        if (cursorScript.element != MyCursor.Element.FIRE) return;
+        if (cursorScript.element != MyCursor.Element.FIRE || !cursorScript.fireU) return;
         
         isHeld = true;
         fireballInstance = Instantiate(fireball);
@@ -57,7 +57,7 @@ public class Firepit : Interactable
 
     public override void MouseUp()
     {
-        if (cursorScript.element != MyCursor.Element.FIRE) return;
+        if (cursorScript.element != MyCursor.Element.FIRE || !cursorScript.fireU) return;
         
         isHeld = false;
         Vector2 throwVector = new Vector2(fireballInstance.transform.position.x, fireballInstance.transform.position.y) - lastPosition;
