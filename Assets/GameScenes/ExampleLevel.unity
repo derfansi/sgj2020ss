@@ -11333,7 +11333,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &632195823
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56434,7 +56434,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!1 &1582201068
 GameObject:
   m_ObjectHideFlags: 0
@@ -56445,9 +56445,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1582201069}
   - component: {fileID: 1582201070}
+  - component: {fileID: 1582201071}
+  - component: {fileID: 1582201072}
   m_Layer: 8
   m_Name: Pond
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56495,6 +56497,44 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 12, y: 4}
   m_EdgeRadius: 0
+--- !u!50 &1582201071
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582201068}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!114 &1582201072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582201068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f3eb3af448d6a41b859d99c43cdba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 0
+  cursor: {fileID: 0}
+  wgc: {fileID: 118853776155855500, guid: cb064f02e3e29914f850be060d7fdc08, type: 3}
+  cmp: 0
+  wf: {fileID: 8268123050826171271, guid: 9752f69fc9b28794a9a4f16ae09c9739, type: 3}
 --- !u!1001 &1592534483
 PrefabInstance:
   m_ObjectHideFlags: 0
