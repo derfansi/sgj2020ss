@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.VFX;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded;
     public bool airDash;
 
+    public Transform spawn;
+    
     public Animator animator;
 
     [SerializeField] private Transform groundCheck;
@@ -88,6 +91,14 @@ public class PlayerController : MonoBehaviour
         {
             Vector2 dir = Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1);
             _rigidbody.AddForce(dir); 
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag.Equals("Enemy"))
+        {
+            gameObject.transform.position = spawn.position;
         }
     }
 }
