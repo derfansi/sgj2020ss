@@ -29,6 +29,15 @@
           <e p="Interactable.cs" t="Include" />
           <e p="MyCursor.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="Waterfall.cs" t="Include" />
+          <e p="Whip.cs" t="Include" />
+        </e>
+        <e p="Stefans Shit" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="MusicManagement.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
+            <e p="SoundTesting.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
