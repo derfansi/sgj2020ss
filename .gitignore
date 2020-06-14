@@ -61,3 +61,5 @@ crashlytics-build.properties
 #ignore rider
 .idea
 .idea/*
+Assets/Enemy-Sprites.meta
+Assets/Enemy-Sprites/Enemies.png.meta
