@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1759000092315673444}
   - component: {fileID: 1034210781428677569}
   - component: {fileID: -6555387593402195636}
+  - component: {fileID: 262996542}
   m_Layer: 0
   m_Name: Campfire
   m_TagString: Interactable
@@ -279,3 +280,24 @@ MonoBehaviour:
   cursor: {fileID: 0}
   fireball: {fileID: 8394926650759782581, guid: 1d02db8107eb37f44a65967955e5502c,
     type: 3}
+--- !u!50 &262996542
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731277243820695677}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
