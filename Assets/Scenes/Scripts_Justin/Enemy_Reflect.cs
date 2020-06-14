@@ -22,4 +22,14 @@ public class Enemy_Reflect : Enemy
     }
     
     //TODO reflect logic
+    
+    
+    public override void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag.Equals("Fireball"))
+        {
+            Destroy(transform.parent.gameObject);
+            Destroy(other.gameObject);
+        }
+    }
 }

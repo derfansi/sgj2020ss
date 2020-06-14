@@ -20,5 +20,14 @@ public class Enemy_Vertical : Enemy
             
             _up *= -1;
         }
+    }    
+    
+    public override void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag.Equals("Fireball"))
+        {
+            Destroy(transform.parent.gameObject);
+            Destroy(other.gameObject);
+        }
     }
 }
