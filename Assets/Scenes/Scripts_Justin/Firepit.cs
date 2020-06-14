@@ -51,6 +51,7 @@ public class Firepit : Interactable
         
         isHeld = true;
         fireballInstance = Instantiate(fireball);
+        fireballInstance.GetComponent<BoxCollider2D>().enabled = false;
         _rigidbody = fireballInstance.GetComponent<Rigidbody2D>();
     }
 
@@ -62,6 +63,7 @@ public class Firepit : Interactable
         Vector2 throwVector = new Vector2(fireballInstance.transform.position.x, fireballInstance.transform.position.y) - lastPosition;
         float speed = 0.5f * throwVector.magnitude / (Time.deltaTime * _rigidbody.mass);
         Vector2 throwVelocity = speed * throwVector.normalized;
+        fireballInstance.GetComponent<BoxCollider2D>().enabled = true;
         _rigidbody.velocity = throwVelocity;
         _rigidbody = null;
         StartCoroutine(KillTheOld(fireballInstance));
@@ -69,7 +71,7 @@ public class Firepit : Interactable
 
     IEnumerator KillTheOld(GameObject fb)
     {
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(2.9f);
         Destroy(fb);
     }
 }

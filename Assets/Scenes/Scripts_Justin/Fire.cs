@@ -16,6 +16,8 @@ public class Fire : MonoBehaviour
     private void Update()
     {
         ttl -= Time.deltaTime;
+        if (ttl <= 0)
+            return;
         transform.localScale = new Vector3(0.2f + ttl / 10, 0.2f + ttl / 10, 0.2f + ttl / 10);
     }
 }

@@ -1,8 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public abstract class Enemy : MonoBehaviour
 {
 
     public Element resistance;
@@ -11,6 +12,8 @@ public class Enemy : MonoBehaviour
     {
         NONE, WATER, FIRE, EARTH, AIR 
     }
+
+    public abstract void OnCollisionEnter2D(Collision2D other);
 }
 
 
