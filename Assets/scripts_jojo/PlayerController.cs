@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey("d"))
         {
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
             if (isGrounded)
             {
                 _rigidbody.velocity = new Vector2(baseVelocity, _rigidbody.velocity.y);
@@ -41,6 +42,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetKey("a"))
         {
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
             if (isGrounded)
             {
                 _rigidbody.velocity = new Vector2(-baseVelocity, _rigidbody.velocity.y);
