@@ -1478,6 +1478,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: The Rodgrandfather
       objectReference: {fileID: 0}
+    - target: {fileID: 1166591181963550583, guid: 980843c368efd844fabad124630f3cc7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Endboss
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 980843c368efd844fabad124630f3cc7, type: 3}
 --- !u!1001 &411752874
