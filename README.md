@@ -1,2 +1,5 @@
 # sgj2020ss
-Team 7
+Legend of Beeng
+
+by "Team 7"
+- Jojo, Kristin, David, Justin und Stefan
