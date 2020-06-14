@@ -21,7 +21,6 @@ public class MusicManagement : MonoBehaviour
     }
     public void WaterActivated()
     {
-        //TODO: Play sound for water activation
         sfx.clip = waterActivate;
         sfx.Play();
         BlendMusic(waterMusic);
