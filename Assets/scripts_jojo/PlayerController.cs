@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded;
     public bool airDash;
 
+    public Animator animator;
+
     [SerializeField] private Transform groundCheck;
     
     // Start is called before the first frame update
@@ -56,6 +58,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             _rigidbody.AddForce(new Vector2(0, jumpVelocity), ForceMode2D.Impulse);
+            animator.SetTrigger("isJumping");
         }
         
        
@@ -68,6 +71,8 @@ public class PlayerController : MonoBehaviour
         {
             isGrounded = false;
         }
+        
+        animator.SetFloat("PlayerSpeed", Math.Abs(_rigidbody.velocity.x));
     }
 
     private void FixedUpdate()

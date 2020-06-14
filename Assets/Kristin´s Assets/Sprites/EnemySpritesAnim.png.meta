@@ -1,67 +1,79 @@
 fileFormatVersion: 2
-guid: a4220277aa2f68143a999f11830ada1f
+guid: ed7ecd532db5c7f40985d1acd6abd2a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7809510454129810742
-    second: Water Monk_0
+      213: 8230733796672758925
+    second: EnemySpritesAnim_0
   - first:
-      213: -3645239516129061332
-    second: Water Monk_1
+      213: -4665417447142951912
+    second: EnemySpritesAnim_1
   - first:
-      213: 3986833874909768541
-    second: Water Monk_2
+      213: 3588140597363241372
+    second: EnemySpritesAnim_2
   - first:
-      213: 3742256143264342469
-    second: Water Monk_3
+      213: 1233143909741858416
+    second: EnemySpritesAnim_3
   - first:
-      213: 5937811971430549267
-    second: Water Monk_4
+      213: 7814866140960207441
+    second: EnemySpritesAnim_4
   - first:
-      213: -541767344598142365
-    second: Water Monk_5
+      213: -5669435281412854724
+    second: EnemySpritesAnim_5
   - first:
-      213: -4747398592427344299
-    second: Water Monk_6
+      213: -8456347689835742149
+    second: EnemySpritesAnim_6
   - first:
-      213: -9207548237536908118
-    second: Water Monk_7
+      213: -2261632767994637634
+    second: EnemySpritesAnim_7
   - first:
-      213: -8443562625222976214
-    second: Water Monk_8
+      213: 8519627151245518161
+    second: EnemySpritesAnim_8
   - first:
-      213: -8676215066616448052
-    second: Water Monk_9
+      213: -572422912773020361
+    second: EnemySpritesAnim_9
   - first:
-      213: -6593452868000720670
-    second: Water Monk_10
+      213: -8881315520957462977
+    second: EnemySpritesAnim_10
   - first:
-      213: 7466000354537936968
-    second: Water Monk_11
+      213: 4348484663236737712
+    second: EnemySpritesAnim_11
   - first:
-      213: 44979957854375110
-    second: Water Monk_12
+      213: -4101732806337570050
+    second: EnemySpritesAnim_12
   - first:
-      213: 8591347961273675703
-    second: Water Monk_13
+      213: 3043522230825094587
+    second: EnemySpritesAnim_13
   - first:
-      213: 2104456364167755069
-    second: Water Monk_14
+      213: 2955294159980760785
+    second: EnemySpritesAnim_14
   - first:
-      213: -3649751243114536377
-    second: Water Monk_15
+      213: -1962285442317022428
+    second: EnemySpritesAnim_15
   - first:
-      213: -1725214848923032008
-    second: Water Monk_16
+      213: -313712764389036012
+    second: EnemySpritesAnim_16
   - first:
-      213: -6786706619446879064
-    second: Water Monk_17
+      213: -3086089424203206302
+    second: EnemySpritesAnim_17
   - first:
-      213: -4630681425122972499
-    second: Water Monk_18
+      213: 4696955552176762662
+    second: EnemySpritesAnim_18
   - first:
-      213: -4854195519209028122
-    second: Water Monk_19
+      213: -2048785239536979985
+    second: EnemySpritesAnim_19
+  - first:
+      213: 3411717041719876770
+    second: EnemySpritesAnim_20
+  - first:
+      213: 8735585314884622265
+    second: EnemySpritesAnim_21
+  - first:
+      213: 5338512900768374355
+    second: EnemySpritesAnim_22
+  - first:
+      213: 8212023198688635507
+    second: EnemySpritesAnim_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -92,7 +104,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
+    aniso: 1
     mipBias: -100
     wrapU: 1
     wrapV: 1
@@ -105,7 +117,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -159,13 +171,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Water Monk_0
+      name: EnemySpritesAnim_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 2048
-        width: 512
-        height: 512
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac2a4e75e9b0f9390800000000000000
-      internalID: -7809510454129810742
+      spriteID: d846b7f97c0793270800000000000000
+      internalID: 8230733796672758925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_1
+      name: EnemySpritesAnim_1
       rect:
         serializedVersion: 2
-        x: 512
-        y: 2048
-        width: 512
-        height: 512
+        x: 64
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2619ef29f1896dc0800000000000000
-      internalID: -3645239516129061332
+      spriteID: 814722edc8b114fb0800000000000000
+      internalID: -4665417447142951912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_2
+      name: EnemySpritesAnim_2
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 2048
-        width: 512
-        height: 512
+        x: 128
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5bad7c3944145730800000000000000
-      internalID: 3986833874909768541
+      spriteID: c917efdccd2abc130800000000000000
+      internalID: 3588140597363241372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_3
+      name: EnemySpritesAnim_3
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 2048
-        width: 512
-        height: 512
+        x: 192
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,104 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c16bcd822a2fe330800000000000000
-      internalID: 3742256143264342469
+      spriteID: 07e89193ad10d1110800000000000000
+      internalID: 1233143909741858416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1536
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3170e243788576250800000000000000
-      internalID: 5937811971430549267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Water Monk_5
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 1536
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 362325278714b78f0800000000000000
-      internalID: -541767344598142365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Water Monk_6
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 1536
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55ebd2b022add1eb0800000000000000
-      internalID: -4747398592427344299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Water Monk_7
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 1536
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aaca65169a7383080800000000000000
-      internalID: -9207548237536908118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Water Monk_8
+      name: EnemySpritesAnim_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 1024
-        width: 512
-        height: 512
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2dd1dc378072da80800000000000000
-      internalID: -8443562625222976214
+      spriteID: 152392ba95bf37c60800000000000000
+      internalID: 7814866140960207441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_9
+      name: EnemySpritesAnim_5
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1024
-        width: 512
-        height: 512
+        x: 64
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccb3f6f8d54e79780800000000000000
-      internalID: -8676215066616448052
+      spriteID: c3ce15646ae1251b0800000000000000
+      internalID: -5669435281412854724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_10
+      name: EnemySpritesAnim_6
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1024
-        width: 512
-        height: 512
+        x: 128
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +311,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e85987dc895f74a0800000000000000
-      internalID: -6593452868000720670
+      spriteID: b3c352a649405aa80800000000000000
+      internalID: -8456347689835742149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_11
+      name: EnemySpritesAnim_7
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1024
-        width: 512
-        height: 512
+        x: 192
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,20 +332,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8489c2114cf8c9760800000000000000
-      internalID: 7466000354537936968
+      spriteID: eb2db4beaf01d90e0800000000000000
+      internalID: -2261632767994637634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_12
+      name: EnemySpritesAnim_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 512
-        width: 512
-        height: 512
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,20 +353,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cc0ce9880dcf9000800000000000000
-      internalID: 44979957854375110
+      spriteID: 15523c051cbcb3670800000000000000
+      internalID: 8519627151245518161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_13
+      name: EnemySpritesAnim_9
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
-        width: 512
-        height: 512
+        x: 64
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +374,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bf6e7da3799a3770800000000000000
-      internalID: 8591347961273675703
+      spriteID: 735aed6c4685e08f0800000000000000
+      internalID: -572422912773020361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_14
+      name: EnemySpritesAnim_10
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 512
-        width: 512
-        height: 512
+        x: 128
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,20 +395,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d35778fc9e7843d10800000000000000
-      internalID: 2104456364167755069
+      spriteID: f36ca23c69a3fb480800000000000000
+      internalID: -8881315520957462977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_15
+      name: EnemySpritesAnim_11
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 512
-        width: 512
-        height: 512
+        x: 192
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,20 +416,230 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7422e93e49a795dc0800000000000000
-      internalID: -3649751243114536377
+      spriteID: 0bab57f03cbe85c30800000000000000
+      internalID: 4348484663236737712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_16
+      name: EnemySpritesAnim_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efadeaa9eb7b317c0800000000000000
+      internalID: -4101732806337570050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySpritesAnim_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd855af753cc3a20800000000000000
+      internalID: 3043522230825094587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySpritesAnim_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de80747160530920800000000000000
+      internalID: 2955294159980760785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySpritesAnim_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b06ce69cf84c4e0800000000000000
+      internalID: -1962285442317022428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySpritesAnim_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410f51527e775abf0800000000000000
+      internalID: -313712764389036012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySpritesAnim_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261374df4020c25d0800000000000000
+      internalID: -3086089424203206302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySpritesAnim_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f6b4d6030fe2140800000000000000
+      internalID: 4696955552176762662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySpritesAnim_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefa558fda04193e0800000000000000
+      internalID: -2048785239536979985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySpritesAnim_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac1cd9c29ad85f20800000000000000
+      internalID: 3411717041719876770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySpritesAnim_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b711de8f880b3970800000000000000
+      internalID: 8735585314884622265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySpritesAnim_22
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
-        height: 512
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,20 +647,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 836a6b84c3ece08e0800000000000000
-      internalID: -1725214848923032008
+      spriteID: 35e9327d235361a40800000000000000
+      internalID: 5338512900768374355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Monk_17
+      name: EnemySpritesAnim_23
       rect:
         serializedVersion: 2
-        x: 512
+        x: 64
         y: 0
-        width: 512
-        height: 512
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,50 +668,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ac93118946c0d1a0800000000000000
-      internalID: -6786706619446879064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Water Monk_18
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dacab8b37c38cbfb0800000000000000
-      internalID: -4630681425122972499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Water Monk_19
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e5c047d4ee62acb0800000000000000
-      internalID: -4854195519209028122
+      spriteID: 37a6a1d0797f6f170800000000000000
+      internalID: 8212023198688635507
       vertices: []
       indices: 
       edges: []
@@ -581,7 +677,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 267233b46cf09034396b61e277148c3b
+    spriteID: 919a52e1b481bfe42b8558ee37f96957
     internalID: 0
     vertices: []
     indices: 
