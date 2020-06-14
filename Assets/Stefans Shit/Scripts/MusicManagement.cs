@@ -27,7 +27,8 @@ public class MusicManagement : MonoBehaviour
     }
     public void EarthActivated()
     {
-        //TODO: Play sound for earth activation
+        sfx.clip = earthActivate;
+        sfx.Play();
         BlendMusic(earthMusic);
     }
     public void FireActivated()
