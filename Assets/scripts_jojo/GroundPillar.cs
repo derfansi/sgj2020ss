@@ -52,7 +52,7 @@ public class GroundPillar : Interactable
                 float rot_z = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
                 current.transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
             }
-            current.transform.localScale = new Vector3(1, direction.magnitude, 1);
+            current.transform.localScale = new Vector3(current.transform.localScale.x, direction.magnitude, 1);
         }
         
         
