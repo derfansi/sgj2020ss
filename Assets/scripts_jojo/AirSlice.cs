@@ -21,8 +21,12 @@ public class AirSlice : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")) return;
-        other.gameObject.GetComponent<Rigidbody2D>().AddForce(direction, ForceMode2D.Impulse);
-        Destroy(gameObject);
+        if(other.CompareTag("Enemy"))
+        {
+            other.gameObject.GetComponent<Rigidbody2D>().AddForce(direction, ForceMode2D.Impulse);
+            Destroy(gameObject);
+        }
+        
     }
 
 

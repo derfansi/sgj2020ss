@@ -149,6 +149,7 @@ public class MyCursor : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        Debug.Log("exit");
         if (other.CompareTag("Interactable"))
         {
             other.GetComponent<Interactable>().CursorExit();

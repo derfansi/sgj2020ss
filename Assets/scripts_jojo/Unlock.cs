@@ -24,7 +24,6 @@ public class Unlock : MonoBehaviour
 
     public void OnTriggerStay2D(Collider2D other)
     {
-        Debug.Log("here");
         if (other.gameObject.CompareTag("Player") && Input.GetKeyDown("f"))
         {
             if (plate != null && !plate.activated)
