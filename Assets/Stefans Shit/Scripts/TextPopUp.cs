@@ -2,13 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class popupText : MonoBehaviour
-{
+public class TextPopUp : MonoBehaviour
+{ 
     public GameObject canvas;
-    
-    // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
         canvas.SetActive(false);
     }
@@ -17,7 +17,6 @@ public class popupText : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            //canvas.SetActive(true);
             StartCoroutine(ExampleText());
         }
     }
@@ -26,18 +25,10 @@ public class popupText : MonoBehaviour
     {
         canvas.SetActive(true);
         
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(15);
         
         canvas.SetActive(false);
         Destroy(canvas);
         Destroy(gameObject);
     }
-    /*private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            Destroy(canvas);
-            Destroy(gameObject);
-        }
-    }*/
 }
