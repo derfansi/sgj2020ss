@@ -1925,6 +1925,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4775106659036798221, guid: 7242e93d02c5a264192da4b8f2643952,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -1.1225052
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775106659036798221, guid: 7242e93d02c5a264192da4b8f2643952,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.8659515
+      objectReference: {fileID: 0}
     - target: {fileID: 4929200143470550692, guid: 7242e93d02c5a264192da4b8f2643952,
         type: 3}
       propertyPath: m_Name
@@ -56672,7 +56682,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865902615}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 

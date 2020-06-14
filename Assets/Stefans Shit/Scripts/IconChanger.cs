@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,7 @@ public class IconChanger : MonoBehaviour
 
     public void SwitchTo(MyCursor.Element element)
     {
+        currentIcon.enabled = true;
         switch (element)
         {
             case MyCursor.Element.WATER:

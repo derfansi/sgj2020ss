@@ -65,27 +65,23 @@ public class MyCursor : MonoBehaviour
         else if (Input.GetKeyDown("e") && !down)
         {
             element = (Element) (((int) element + 3) % 4);
-            if ((element == Element.AIR && airU) || (element == Element.WATER && waterU) ||
-                (element == Element.FIRE && fireU) || (element == Element.EARTH && earthU)) 
+            switch (element)
             {
-                switch (element)
-                {
-                    case Element.WATER:
-                        musicManager.WaterActivated();
-                        break;
-                    case Element.FIRE:
-                        musicManager.FireActivated();
-                        break;
-                    case Element.EARTH:
-                        musicManager.EarthActivated();
-                        break;
-                    case Element.AIR:
-                        musicManager.AirActivated();
-                        break;
-                }
-
-                iconChanger.SwitchTo(element);
+                case Element.WATER:
+                    musicManager.WaterActivated();
+                    break;
+                case Element.FIRE:
+                    musicManager.FireActivated();
+                    break;
+                case Element.EARTH:
+                    musicManager.EarthActivated();
+                    break;
+                case Element.AIR:
+                    musicManager.AirActivated();
+                    break;
             }
+
+            iconChanger.SwitchTo(element);
         }
 
         //air
