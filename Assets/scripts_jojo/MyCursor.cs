@@ -16,8 +16,8 @@ public class MyCursor : MonoBehaviour
     public static Air air;
 
     public bool waterU, fireU, airU, earthU;
-    
-    
+
+
     //Element Switch
     public enum Element
     {
@@ -28,8 +28,8 @@ public class MyCursor : MonoBehaviour
     }
 
     public Element element;
-    
-    
+
+
     private void Start()
     {
         air = GetComponent<Air>();
@@ -59,31 +59,37 @@ public class MyCursor : MonoBehaviour
                     musicManager.AirActivated();
                     break;
             }
+
             iconChanger.SwitchTo(element);
         }
-        else  if (Input.GetKeyDown("e") && !down)
+        else if (Input.GetKeyDown("e") && !down)
         {
-            element = (Element) (((int) element +3) % 4);
-            switch (element)
+            element = (Element) (((int) element + 3) % 4);
+            if ((element == Element.AIR && airU) || (element == Element.WATER && waterU) ||
+                (element == Element.FIRE && fireU) || (element == Element.EARTH && earthU)) 
             {
-                case Element.WATER:
-                    musicManager.WaterActivated();
-                    break;
-                case Element.FIRE:
-                    musicManager.FireActivated();
-                    break;
-                case Element.EARTH:
-                    musicManager.EarthActivated();
-                    break;
-                case Element.AIR:
-                    musicManager.AirActivated();
-                    break;
+                switch (element)
+                {
+                    case Element.WATER:
+                        musicManager.WaterActivated();
+                        break;
+                    case Element.FIRE:
+                        musicManager.FireActivated();
+                        break;
+                    case Element.EARTH:
+                        musicManager.EarthActivated();
+                        break;
+                    case Element.AIR:
+                        musicManager.AirActivated();
+                        break;
+                }
+
+                iconChanger.SwitchTo(element);
             }
-            iconChanger.SwitchTo(element);
         }
-        
+
         //air
-        if (element == Element.AIR &&  airU)
+        if (element == Element.AIR && airU)
         {
             if (down && !cmp)
             {
@@ -97,8 +103,8 @@ public class MyCursor : MonoBehaviour
                 air.MouseUp();
             }
         }
-        
-        
+
+
         movement.x = Input.GetAxisRaw("Mouse X");
         movement.y = Input.GetAxisRaw("Mouse Y");
 
@@ -111,8 +117,8 @@ public class MyCursor : MonoBehaviour
             down = false;
         }
 
-        transform.position += new Vector3(movement.x, movement.y, 0) * speed/10;
-        
+        transform.position += new Vector3(movement.x, movement.y, 0) * speed / 10;
+
         //constraints
         viewport = Camera.main.WorldToViewportPoint(transform.position);
         //Top
@@ -123,19 +129,20 @@ public class MyCursor : MonoBehaviour
         //Bottom
         else if (viewport.y < 0)
         {
-            transform.position =_camera.ViewportToWorldPoint(new Vector3(viewport.x, 0, viewport.z));
+            transform.position = _camera.ViewportToWorldPoint(new Vector3(viewport.x, 0, viewport.z));
         }
+
         //Right
         if (viewport.x > 1)
         {
             transform.position = _camera.ViewportToWorldPoint(new Vector3(1, viewport.y, viewport.z));
         }
+
         //Left
         if (viewport.x < 0)
         {
             transform.position = _camera.ViewportToWorldPoint(new Vector3(0, viewport.y, viewport.z));
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -167,6 +174,8 @@ public class MyCursor : MonoBehaviour
                 break;
             case Element.EARTH:
                 earthU = true;
+                musicManager.EarthActivated();
+                iconChanger.SwitchTo(element);
                 break;
             case Element.WATER:
                 waterU = true;
@@ -174,4 +183,3 @@ public class MyCursor : MonoBehaviour
         }
     }
 }
-
