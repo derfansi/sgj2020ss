@@ -96,8 +96,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a55c256a3739b54d8f1d11fb52e7e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicManager: {fileID: 0}
+  iconChanger: {fileID: 0}
   speed: 1
   down: 0
+  cmp: 0
+  waterU: 0
+  fireU: 0
+  airU: 0
+  earthU: 0
   element: 0
 --- !u!61 &9109469912971774645
 BoxCollider2D:
@@ -137,3 +144,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ecb50d9f0e032d4da81efbc0d69e60d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
+  cursor: {fileID: 0}
+  hold: 0
+  charge: 0
+  maxCharge: 5
+  chargeSpeed: 1
+  player: {fileID: 0}
+  p_rb: {fileID: 0}
+  cursorPos: {x: 0, y: 0}
+  playerPos: {x: 0, y: 0}
+  airSlice: {fileID: 2314280459559766966, guid: 1fb88143ce32e3c48bdf130ada4da49d,
+    type: 3}
+  attackSpeed: 6
+  direction: {x: 0, y: 0}
