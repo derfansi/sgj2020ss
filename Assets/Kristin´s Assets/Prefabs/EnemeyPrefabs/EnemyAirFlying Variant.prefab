@@ -20,7 +20,7 @@ PrefabInstance:
     - target: {fileID: 6058060328844821441, guid: 1a730c2279f814540aea3b83890c6d79,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -55.185215
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6058060328844821441, guid: 1a730c2279f814540aea3b83890c6d79,
         type: 3}
@@ -76,7 +76,7 @@ PrefabInstance:
     - target: {fileID: 6058060328844821468, guid: 1a730c2279f814540aea3b83890c6d79,
         type: 3}
       propertyPath: m_Name
-      value: EnemyAirFlying
+      value: EnemyAirFlying Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a730c2279f814540aea3b83890c6d79, type: 3}

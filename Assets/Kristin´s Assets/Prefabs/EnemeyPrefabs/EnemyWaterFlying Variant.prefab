@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 502494138008536198, guid: a9316d4e34f37f5499beb05ef71274ee,
         type: 3}
       propertyPath: m_Name
-      value: EnemyWaterFlying
+      value: EnemyWaterFlying Variant
       objectReference: {fileID: 0}
     - target: {fileID: 502494138008536216, guid: a9316d4e34f37f5499beb05ef71274ee,
         type: 3}
@@ -36,7 +36,7 @@ PrefabInstance:
     - target: {fileID: 502494138008536219, guid: a9316d4e34f37f5499beb05ef71274ee,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -55.185215
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 502494138008536219, guid: a9316d4e34f37f5499beb05ef71274ee,
         type: 3}
