@@ -7,6 +7,7 @@ public class Unlock : MonoBehaviour
 {
 
     public MyCursor cursorScript;
+    public PressurePlate plate;
 
     public MyCursor.Element element;
     // Start is called before the first frame update
@@ -26,6 +27,8 @@ public class Unlock : MonoBehaviour
         Debug.Log("here");
         if (other.gameObject.CompareTag("Player") && Input.GetKeyDown("f"))
         {
+            if (plate != null && !plate.activated)
+                return;
             cursorScript.UnlockElement(element);
         }
     }
