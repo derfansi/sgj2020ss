@@ -10,15 +10,58 @@ public class MyCursor : MonoBehaviour
     public float speed = 1;
     private Camera _camera;
     public bool down;
+    public bool cmp = false;
+    public static Air air;
+    
+    //Element Switch
+    public enum Element
+    {
+        WATER,
+        FIRE,
+        EARTH,
+        AIR
+    }
+
+    public Element element;
+    
     
     private void Start()
     {
+        air = GetComponent<Air>();
+        element = Element.EARTH;
         Cursor.lockState = CursorLockMode.Locked;
         _camera = Camera.main;
     }
 
     private void Update()
     {
+        //element switch
+        if (Input.GetKeyDown("q") && !down)
+        {
+            element = (Element) (((int) element + 5) % 4);
+        }
+        else  if (Input.GetKeyDown("e") && !down)
+        {
+            element = (Element) (((int) element +3) % 4);
+        }
+        
+        //air
+        if (element == Element.AIR)
+        {
+            if (down && !cmp)
+            {
+                cmp = !cmp;
+                air.MouseDown();
+            }
+
+            if (!down && cmp)
+            {
+                cmp = !cmp;
+                air.MouseUp();
+            }
+        }
+        
+        
         movement.x = Input.GetAxisRaw("Mouse X");
         movement.y = Input.GetAxisRaw("Mouse Y");
 

@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public float fallMultiplier = 3.5f;
     public float lowJumpMultiplier = 3f;
     public bool isGrounded;
+    public bool airDash;
 
     [SerializeField] private Transform groundCheck;
     
@@ -26,30 +27,38 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey("d"))
         {
-            _rigidbody.velocity = new Vector2(baseVelocity, _rigidbody.velocity.y);
+            if (isGrounded)
+            {
+                _rigidbody.velocity = new Vector2(baseVelocity, _rigidbody.velocity.y);
+            }
+            else
+            {
+                _rigidbody.velocity = new Vector2(baseVelocity * 1.2f, _rigidbody.velocity.y);
+            }
+            
         }
         else if (Input.GetKey("a"))
         {
-            _rigidbody.velocity = new Vector2(-baseVelocity, _rigidbody.velocity.y);
+            if (isGrounded)
+            {
+                _rigidbody.velocity = new Vector2(-baseVelocity, _rigidbody.velocity.y);
+            }
+            else
+            {
+                _rigidbody.velocity = new Vector2(-baseVelocity * 1.2f , _rigidbody.velocity.y);
+            }
         }
-        else
+        else if(isGrounded && !airDash)
         {
             _rigidbody.velocity = new Vector2(0, _rigidbody.velocity.y);
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, jumpVelocity);
+            _rigidbody.AddForce(new Vector2(0, jumpVelocity), ForceMode2D.Impulse);
         }
         
-        if (_rigidbody.velocity.y < 0)
-        {
-            _rigidbody.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-        }
-        else if(_rigidbody.velocity.y > 0 && !Input.GetButton("Jump"))
-        {
-            _rigidbody.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-        }
+       
 
         if (Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground")))
         {
@@ -60,5 +69,18 @@ public class PlayerController : MonoBehaviour
             isGrounded = false;
         }
     }
-    
+
+    private void FixedUpdate()
+    {
+        if (_rigidbody.velocity.y < 0)
+        {
+            Vector2 dir = Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1);
+            _rigidbody.AddForce(dir);
+        }
+        else if(_rigidbody.velocity.y > 0 && !Input.GetButton("Jump"))
+        {
+            Vector2 dir = Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1);
+            _rigidbody.AddForce(dir); 
+        }
+    }
 }
