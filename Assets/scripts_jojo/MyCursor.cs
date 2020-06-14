@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class MyCursor : MonoBehaviour
 {
+    public MusicManagement musicManager;
+    public IconChanger iconChanger;
     private Vector2 movement;
     private Vector3 viewport;
     public float speed = 1;
@@ -42,10 +44,42 @@ public class MyCursor : MonoBehaviour
         if (Input.GetKeyDown("q") && !down)
         {
             element = (Element) (((int) element + 5) % 4);
+            switch (element)
+            {
+                case Element.WATER:
+                    musicManager.WaterActivated();
+                    break;
+                case Element.FIRE:
+                    musicManager.FireActivated();
+                    break;
+                case Element.EARTH:
+                    musicManager.EarthActivated();
+                    break;
+                case Element.AIR:
+                    musicManager.AirActivated();
+                    break;
+            }
+            iconChanger.SwitchTo(element);
         }
         else  if (Input.GetKeyDown("e") && !down)
         {
             element = (Element) (((int) element +3) % 4);
+            switch (element)
+            {
+                case Element.WATER:
+                    musicManager.WaterActivated();
+                    break;
+                case Element.FIRE:
+                    musicManager.FireActivated();
+                    break;
+                case Element.EARTH:
+                    musicManager.EarthActivated();
+                    break;
+                case Element.AIR:
+                    musicManager.AirActivated();
+                    break;
+            }
+            iconChanger.SwitchTo(element);
         }
         
         //air

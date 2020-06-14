@@ -21,14 +21,14 @@ public class MusicManagement : MonoBehaviour
     }
     public void WaterActivated()
     {
-        //TODO: Play sound for water activation
         sfx.clip = waterActivate;
         sfx.Play();
         BlendMusic(waterMusic);
     }
     public void EarthActivated()
     {
-        //TODO: Play sound for earth activation
+        sfx.clip = earthActivate;
+        sfx.Play();
         BlendMusic(earthMusic);
     }
     public void FireActivated()
