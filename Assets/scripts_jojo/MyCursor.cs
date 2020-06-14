@@ -6,6 +6,7 @@ using UnityEngine;
 public class MyCursor : MonoBehaviour
 {
     public MusicManagement musicManager;
+    public IconChanger iconChanger;
     private Vector2 movement;
     private Vector3 viewport;
     public float speed = 1;
@@ -58,6 +59,7 @@ public class MyCursor : MonoBehaviour
                     musicManager.AirActivated();
                     break;
             }
+            iconChanger.SwitchTo(element);
         }
         else  if (Input.GetKeyDown("e") && !down)
         {
@@ -77,6 +79,7 @@ public class MyCursor : MonoBehaviour
                     musicManager.AirActivated();
                     break;
             }
+            iconChanger.SwitchTo(element);
         }
         
         //air
