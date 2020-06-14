@@ -48,7 +48,7 @@ public class BoulderScript : Interactable
    
    public override void MouseDown()
    {
-      if (cursorScript.element == MyCursor.Element.EARTH)
+      if (cursorScript.element == MyCursor.Element.EARTH && cursorScript.earthU)
       {
          Debug.Log("down");
          this.cursor = cursor;
@@ -62,7 +62,7 @@ public class BoulderScript : Interactable
 
    public override void MouseUp()
    {
-      if (cursorScript.element == MyCursor.Element.EARTH)
+      if (cursorScript.element == MyCursor.Element.EARTH && cursorScript.earthU)
       {
          Debug.Log("up");
          Vector2 throwVector = new Vector2(transform.position.x, transform.position.y) - lastPosition;
