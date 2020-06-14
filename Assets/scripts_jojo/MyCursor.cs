@@ -12,6 +12,9 @@ public class MyCursor : MonoBehaviour
     public bool down;
     public bool cmp = false;
     public static Air air;
+
+    public bool waterU, fireU, airU, earthU;
+    
     
     //Element Switch
     public enum Element
@@ -46,7 +49,7 @@ public class MyCursor : MonoBehaviour
         }
         
         //air
-        if (element == Element.AIR)
+        if (element == Element.AIR &&  airU)
         {
             if (down && !cmp)
             {
@@ -115,6 +118,25 @@ public class MyCursor : MonoBehaviour
         if (other.CompareTag("Interactable"))
         {
             other.GetComponent<Interactable>().CursorExit();
+        }
+    }
+
+    public void UnlockElement(Element element)
+    {
+        switch (element)
+        {
+            case Element.AIR:
+                airU = true;
+                break;
+            case Element.FIRE:
+                fireU = true;
+                break;
+            case Element.EARTH:
+                earthU = true;
+                break;
+            case Element.WATER:
+                waterU = true;
+                break;
         }
     }
 }

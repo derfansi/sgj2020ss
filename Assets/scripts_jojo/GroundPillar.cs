@@ -62,7 +62,7 @@ public class GroundPillar : Interactable
 
     public override void MouseDown()
     {
-        if (cursorScript.element == MyCursor.Element.EARTH)
+        if (cursorScript.element == MyCursor.Element.EARTH && cursorScript.earthU)
         {
             startPos = cursor.transform.position;
             current = Instantiate(pillar, new Vector3(startPos.x, startPos.y, 1), Quaternion.identity);
@@ -74,7 +74,7 @@ public class GroundPillar : Interactable
 
     public override void MouseUp()
     {
-        if (cursorScript.element == MyCursor.Element.EARTH)
+        if (cursorScript.element == MyCursor.Element.EARTH && cursorScript.earthU)
         {
             dragging = false;
         }
